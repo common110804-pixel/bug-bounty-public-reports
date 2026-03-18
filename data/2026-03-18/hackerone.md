@@ -1,6 +1,6 @@
 # HackerOne Public Reports Snapshot
 
-Generated: 2026-03-18T15:55:05.535059+00:00
+Generated: 2026-03-18T16:09:00.685492+00:00
 
 1. [Password Reuse Vulnerability on AWS Sign-in Page via Password Reset Flow leads to Security Policy Violation](https://hackerone.com/reports/3514122)
    - Program: AWS VDP | Upvotes: 11 | Bounty: $0.00 | Type: Weak Password Requirements

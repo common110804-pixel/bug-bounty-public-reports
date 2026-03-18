@@ -6,52 +6,119 @@
   <title>Bug Bounty Report</title>
   <style>
     :root { --bg:#0b1020; --card:#121a33; --text:#e8ecff; --muted:#9fb0e6; --accent:#7aa2ff; }
-    *{box-sizing:border-box} body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;background:linear-gradient(180deg,#0b1020,#0e1630);color:var(--text)}
-    .wrap{max-width:1000px;margin:0 auto;padding:32px 20px 80px}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;background:linear-gradient(180deg,#0b1020,#0e1630);color:var(--text)}
+    .wrap{max-width:1100px;margin:0 auto;padding:28px 20px 80px}
     .hero{background:rgba(122,162,255,.12);border:1px solid rgba(122,162,255,.35);padding:18px 20px;border-radius:16px;margin-bottom:16px}
     h1{margin:0 0 8px;font-size:28px}
     .muted{color:var(--muted);font-size:14px}
-    .card{background:var(--card);border:1px solid #25325f;border-radius:16px;padding:18px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
-    a{color:#9fc0ff}
-    .toolbar{display:flex;gap:10px;align-items:center;margin:14px 0 16px}
-    input{flex:1;max-width:340px;padding:10px 12px;border-radius:10px;border:1px solid #2c3d74;background:#0d1430;color:#fff}
-    .report{line-height:1.6}
-    .report h1,.report h2,.report h3{color:#dce5ff}
-    .report li{margin:8px 0}
-    code{background:#0a122c;padding:2px 6px;border-radius:6px}
+    .toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:14px 0 16px}
+    input,select{padding:10px 12px;border-radius:10px;border:1px solid #2c3d74;background:#0d1430;color:#fff}
+    input{flex:1;min-width:220px}
+    .meta{margin-left:auto;color:#9fb0e6;font-size:13px}
+    .grid{display:grid;grid-template-columns:1fr;gap:12px}
+    .item{background:var(--card);border:1px solid #25325f;border-radius:14px;padding:14px 14px;box-shadow:0 8px 22px rgba(0,0,0,.22)}
+    .title a{color:#dce5ff;text-decoration:none}
+    .title a:hover{text-decoration:underline}
+    .tags{margin-top:8px;display:flex;gap:8px;flex-wrap:wrap}
+    .tag{font-size:12px;padding:4px 8px;border-radius:999px;border:1px solid #2e427e;background:#0d1838;color:#bdd0ff}
+    .small{font-size:13px;color:#a7b8ea;margin-top:6px}
   </style>
 </head>
 <body>
   <div class="wrap">
     <div class="hero">
       <h1>Bug Bounty Public Report</h1>
-      <div class="muted">Served locally on port 4010 • Auto-rendered from latest markdown snapshot</div>
+      <div class="muted">Local dashboard on port 4010 • with vulnerability type filter</div>
     </div>
+
     <div class="toolbar">
-      <input id="q" placeholder="Filter text…" />
+      <input id="q" placeholder="Search title / program / vuln type…" />
+      <select id="vtype">
+        <option value="all">All vulnerability types</option>
+        <option value="xss">XSS</option>
+        <option value="sensitive info leakage">Sensitive Info Leakage</option>
+        <option value="idor">IDOR</option>
+        <option value="sqli">SQL Injection</option>
+        <option value="ssrf">SSRF</option>
+        <option value="csrf">CSRF</option>
+        <option value="rce">RCE</option>
+        <option value="open redirect">Open Redirect</option>
+        <option value="auth bypass">Auth Bypass</option>
+        <option value="other">Others</option>
+      </select>
       <a href="report.md" target="_blank">Raw markdown</a>
+      <span class="meta" id="count"></span>
     </div>
-    <div class="card report" id="content">Loading report…</div>
+
+    <div class="grid" id="list">Loading report…</div>
   </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
-    const content = document.getElementById('content');
     const q = document.getElementById('q');
-    let raw = '';
-    fetch('report.md').then(r => r.text()).then(md => {
-      raw = md;
-      content.innerHTML = marked.parse(md);
-    }).catch(err => {
-      content.innerHTML = '<p>Could not load report.md</p><pre>'+String(err)+'</pre>';
-    });
+    const vtype = document.getElementById('vtype');
+    const list = document.getElementById('list');
+    const count = document.getElementById('count');
 
-    q.addEventListener('input', () => {
+    function classifyType(t = '') {
+      const s = t.toLowerCase();
+      if (s.includes('cross-site scripting') || s.includes(' xss') || s === 'xss') return 'xss';
+      if (s.includes('sensitive') || s.includes('information disclosure') || s.includes('info leak') || s.includes('data exposure')) return 'sensitive info leakage';
+      if (s.includes('idor') || s.includes('insecure direct object reference') || s.includes('broken access control')) return 'idor';
+      if (s.includes('sql injection') || s.includes('sqli')) return 'sqli';
+      if (s.includes('ssrf') || s.includes('server-side request forgery')) return 'ssrf';
+      if (s.includes('csrf') || s.includes('cross-site request forgery')) return 'csrf';
+      if (s.includes('remote code execution') || s.includes('rce') || s.includes('command injection')) return 'rce';
+      if (s.includes('open redirect')) return 'open redirect';
+      if (s.includes('auth') && (s.includes('bypass') || s.includes('broken authentication'))) return 'auth bypass';
+      return 'other';
+    }
+
+    function escapeHtml(str='') {
+      return str.replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+    }
+
+    function render(records) {
       const term = q.value.trim().toLowerCase();
-      if (!term) { content.innerHTML = marked.parse(raw); return; }
-      const filtered = raw.split('\n').filter(l => l.toLowerCase().includes(term) || /^\d+\. \[/.test(l)).join('\n');
-      content.innerHTML = marked.parse(filtered || '_No matches_');
-    });
+      const vt = vtype.value;
+      const filtered = records.filter(r => {
+        const cat = r._category;
+        const hay = `${r.title} ${r.program} ${r.vuln_type}`.toLowerCase();
+        const textOk = !term || hay.includes(term);
+        const typeOk = vt === 'all' || cat === vt;
+        return textOk && typeOk;
+      });
+
+      count.textContent = `${filtered.length} / ${records.length} reports`;
+
+      if (!filtered.length) {
+        list.innerHTML = '<div class="item">No reports matched this filter.</div>';
+        return;
+      }
+
+      list.innerHTML = filtered.map(r => `
+        <article class="item">
+          <div class="title"><a href="${escapeHtml(r.url || '#')}" target="_blank" rel="noopener">${escapeHtml(r.title || '(untitled)')}</a></div>
+          <div class="small">Program: ${escapeHtml(r.program || 'n/a')} • Upvotes: ${escapeHtml(String(r.upvotes ?? '0'))} • Bounty: $${Number(r.bounty || 0).toFixed(2)}</div>
+          <div class="tags">
+            <span class="tag">${escapeHtml(r._category)}</span>
+            <span class="tag">raw: ${escapeHtml(r.vuln_type || 'n/a')}</span>
+          </div>
+        </article>
+      `).join('');
+    }
+
+    fetch('report.json')
+      .then(r => r.json())
+      .then(data => {
+        const records = (Array.isArray(data) ? data : []).map(r => ({ ...r, _category: classifyType(r.vuln_type || '') }));
+        render(records);
+        q.addEventListener('input', () => render(records));
+        vtype.addEventListener('change', () => render(records));
+      })
+      .catch(err => {
+        list.innerHTML = `<div class="item">Could not load report.json<br><pre>${String(err)}</pre></div>`;
+      });
   </script>
 </body>
 </html>

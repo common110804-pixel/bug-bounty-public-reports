@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bug Bounty Report</title>
+  <style>
+    :root { --bg:#0b1020; --card:#121a33; --text:#e8ecff; --muted:#9fb0e6; --accent:#7aa2ff; }
+    *{box-sizing:border-box} body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;background:linear-gradient(180deg,#0b1020,#0e1630);color:var(--text)}
+    .wrap{max-width:1000px;margin:0 auto;padding:32px 20px 80px}
+    .hero{background:rgba(122,162,255,.12);border:1px solid rgba(122,162,255,.35);padding:18px 20px;border-radius:16px;margin-bottom:16px}
+    h1{margin:0 0 8px;font-size:28px}
+    .muted{color:var(--muted);font-size:14px}
+    .card{background:var(--card);border:1px solid #25325f;border-radius:16px;padding:18px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+    a{color:#9fc0ff}
+    .toolbar{display:flex;gap:10px;align-items:center;margin:14px 0 16px}
+    input{flex:1;max-width:340px;padding:10px 12px;border-radius:10px;border:1px solid #2c3d74;background:#0d1430;color:#fff}
+    .report{line-height:1.6}
+    .report h1,.report h2,.report h3{color:#dce5ff}
+    .report li{margin:8px 0}
+    code{background:#0a122c;padding:2px 6px;border-radius:6px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="hero">
+      <h1>Bug Bounty Public Report</h1>
+      <div class="muted">Served locally on port 4010 • Auto-rendered from latest markdown snapshot</div>
+    </div>
+    <div class="toolbar">
+      <input id="q" placeholder="Filter text…" />
+      <a href="report.md" target="_blank">Raw markdown</a>
+    </div>
+    <div class="card report" id="content">Loading report…</div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script>
+    const content = document.getElementById('content');
+    const q = document.getElementById('q');
+    let raw = '';
+    fetch('report.md').then(r => r.text()).then(md => {
+      raw = md;
+      content.innerHTML = marked.parse(md);
+    }).catch(err => {
+      content.innerHTML = '<p>Could not load report.md</p><pre>'+String(err)+'</pre>';
+    });
+
+    q.addEventListener('input', () => {
+      const term = q.value.trim().toLowerCase();
+      if (!term) { content.innerHTML = marked.parse(raw); return; }
+      const filtered = raw.split('\n').filter(l => l.toLowerCase().includes(term) || /^\d+\. \[/.test(l)).join('\n');
+      content.innerHTML = marked.parse(filtered || '_No matches_');
+    });
+  </script>
+</body>
+</html>

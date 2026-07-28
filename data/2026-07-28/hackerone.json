@@ -1,0 +1,5002 @@
+[
+  {
+    "platform": "hackerone",
+    "program": "Rocket.Chat",
+    "title": "Stored XSS in Rocket.Chat HTML File Export — Unauthenticated Entry via LiveChat",
+    "url": "https://hackerone.com/reports/3779690",
+    "upvotes": 18,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Stored",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "GitHub",
+    "title": "Able to bypass authorization logic and gain more access then intended",
+    "url": "https://hackerone.com/reports/3713965",
+    "upvotes": 25,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "AWS VDP",
+    "title": "Bedrock AgentCore Starter Toolkit Creates Gateway IAM Roles Without Confused Deputy Protections",
+    "url": "https://hackerone.com/reports/3632577",
+    "upvotes": 10,
+    "bounty": 0.0,
+    "vuln_type": "Incorrect Permission Assignment for Critical Resource",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Basecamp",
+    "title": "Stored XSS on Trix Editor version latest (2.1.16) - Sanitizer Bypass",
+    "url": "https://hackerone.com/reports/3581911",
+    "upvotes": 23,
+    "bounty": 337.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Stored",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "AWS VDP",
+    "title": "bedrock-mantle.api.aws accepts Bedrock API keys outside the IAM Deny, CloudTrail signal, and invocation logging AWS publishes for Bedrock keys",
+    "url": "https://hackerone.com/reports/3702072",
+    "upvotes": 10,
+    "bounty": 0.0,
+    "vuln_type": "Insecure Default Initialization of Resource",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "SingleStore",
+    "title": "SELECT ... INTO OUTFILE does not enforce the FILE WRITE privilege  unprivileged arbitrary file write on the   server",
+    "url": "https://hackerone.com/reports/3780695",
+    "upvotes": 24,
+    "bounty": 0.0,
+    "vuln_type": "Missing Authorization",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "AWS VDP",
+    "title": "Kiro IDE Stores Auth Tokens with World-Readable Permissions (0644)",
+    "url": "https://hackerone.com/reports/3630605",
+    "upvotes": 40,
+    "bounty": 0.0,
+    "vuln_type": "Incorrect Default Permissions",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "AWS VDP",
+    "title": "OS Command Injection in `aws-cdk-lib` NodejsFunction via Unsanitized `OsCommand` Helper (Supply Chain RCE)",
+    "url": "https://hackerone.com/reports/3637898",
+    "upvotes": 81,
+    "bounty": 0.0,
+    "vuln_type": "OS Command Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Basecamp",
+    "title": "Any installed app can force immediate logout and persistent DOS of authenticated Basecamp sessions via unprotected exported StartActivity",
+    "url": "https://hackerone.com/reports/3764217",
+    "upvotes": 81,
+    "bounty": 287.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Shopify",
+    "title": "admin.shopify.com: Shopify Flow continues sending internal emails to a configured recipient after the staff author is removed",
+    "url": "https://hackerone.com/reports/3628961",
+    "upvotes": 64,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "AWS VDP",
+    "title": "Non-Production API Endpoints for the Amazon S3 Tables Service Fails to Log to CloudTrail Resulting in Silent Permission Enumeration",
+    "url": "https://hackerone.com/reports/3780277",
+    "upvotes": 58,
+    "bounty": 0.0,
+    "vuln_type": "Insufficient Logging",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "8x8",
+    "title": "jitsi-meet: Prosody/Jigasi missing header whitelist in mod_filter_iq_rayo allows arbitrary SIP header injection and Caller ID spoofing",
+    "url": "https://hackerone.com/reports/3789570",
+    "upvotes": 57,
+    "bounty": 100.0,
+    "vuln_type": "Improper Input Validation",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "8x8",
+    "title": "jitsi-call-analytics: Unauthenticated arbitrary file write via path traversal in `/api/v1/uploads/analyze`",
+    "url": "https://hackerone.com/reports/3485343",
+    "upvotes": 57,
+    "bounty": 100.0,
+    "vuln_type": "Path Traversal",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Yelp",
+    "title": "Yelp for Business: locked Email field silently editable via API",
+    "url": "https://hackerone.com/reports/3766455",
+    "upvotes": 57,
+    "bounty": 0.0,
+    "vuln_type": "Client-Side Enforcement of Server-Side Security",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Nintendo",
+    "title": "Splatoon 3 In-Match Integrity Bypass via Consensus Reflection Attack on Unordered Peer Submission",
+    "url": "https://hackerone.com/reports/3559522",
+    "upvotes": 45,
+    "bounty": 0.0,
+    "vuln_type": "Client-Side Enforcement of Server-Side Security",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Nintendo",
+    "title": "[Splatoon 3] Kick other players with NplnLogin message",
+    "url": "https://hackerone.com/reports/3813932",
+    "upvotes": 28,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "SingleStore",
+    "title": "Exceeding the maximum number of spaces allowed by exploiting a Race Condition in the Workspace creation process",
+    "url": "https://hackerone.com/reports/3295500",
+    "upvotes": 25,
+    "bounty": 0.0,
+    "vuln_type": "Business Logic Errors",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "SingleStore",
+    "title": "Insecure Direct Object Reference (IDOR) allows creating folders.",
+    "url": "https://hackerone.com/reports/3353057",
+    "upvotes": 26,
+    "bounty": 0.0,
+    "vuln_type": "Insecure Direct Object Reference (IDOR)",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "SingleStore",
+    "title": "Delete any folder for any user within the organization",
+    "url": "https://hackerone.com/reports/3353035",
+    "upvotes": 22,
+    "bounty": 0.0,
+    "vuln_type": "Insecure Direct Object Reference (IDOR)",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "SingleStore",
+    "title": "Privilege Escalation – Access to the Alert Subscribers page for users with low privileges",
+    "url": "https://hackerone.com/reports/3353000",
+    "upvotes": 24,
+    "bounty": 0.0,
+    "vuln_type": "Privilege Escalation",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Node.js",
+    "title": "Improper Input Validation — HTTP Response Parser Unconditionally Accepts Bare CR in Status Line",
+    "url": "https://hackerone.com/reports/3648681",
+    "upvotes": 21,
+    "bounty": 0.0,
+    "vuln_type": "HTTP Request Smuggling",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "heap-use-after-free in curl_easy_cleanup() called from callback",
+    "url": "https://hackerone.com/reports/3833577",
+    "upvotes": 11,
+    "bounty": 0.0,
+    "vuln_type": "Use After Free",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "setopt(VERIFYPEER) from callback bypasses TLS verify on connection reuse",
+    "url": "https://hackerone.com/reports/3831432",
+    "upvotes": 7,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "ssh_config_matches is dead code: unauthorized SSH key reuse",
+    "url": "https://hackerone.com/reports/3826843",
+    "upvotes": 7,
+    "bounty": 0.0,
+    "vuln_type": "Authentication Bypass by Primary Weakness",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CURLSHOPT_UNSHARE race can cause UAF in shared SSL session cache during HTTPS transfer",
+    "url": "https://hackerone.com/reports/3831345",
+    "upvotes": 3,
+    "bounty": 0.0,
+    "vuln_type": "Use After Free",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "libcurl upload read callbacks miss recursive API guard, allowing prohibited multi API reentry and ASAN-confirmed UAF",
+    "url": "https://hackerone.com/reports/3832393",
+    "upvotes": 1,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Discourse",
+    "title": "Denial of Service (DoS) Vulnerability in Drafts Creation Endpoint",
+    "url": "https://hackerone.com/reports/3400140",
+    "upvotes": 76,
+    "bounty": 1024.0,
+    "vuln_type": "Uncontrolled Resource Consumption",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Monero",
+    "title": "Inverted ternary in peerlist_manager::filter() allows unlimited whitelist entries per host via different ports",
+    "url": "https://hackerone.com/reports/3547349",
+    "upvotes": 15,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Monero",
+    "title": "Remote node DOS",
+    "url": "https://hackerone.com/reports/876530",
+    "upvotes": 19,
+    "bounty": 0.0,
+    "vuln_type": "Uncontrolled Resource Consumption",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "UAF read in mev_pollset_diff() trace path after curl_easy_pause() in socket callback",
+    "url": "https://hackerone.com/reports/3824303",
+    "upvotes": 16,
+    "bounty": 0.0,
+    "vuln_type": "Use After Free",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Use-after-free in `mev_forget_socket` when `curl_easy_pause()` is called from a `CURL_POLL_REMOVE` socket callback (incomplete fix of CVE-2026-9080)",
+    "url": "https://hackerone.com/reports/3823985",
+    "upvotes": 12,
+    "bounty": 0.0,
+    "vuln_type": "Use After Free",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "mbedTLS / wolfSSL / rustls backends silently skip hostname verification when CURLOPT_SSL_VERIFYPEER=0",
+    "url": "https://hackerone.com/reports/3826199",
+    "upvotes": 17,
+    "bounty": 0.0,
+    "vuln_type": "Improper Validation of Certificate with Host Mismatch",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CURLOPT_HAPROXY_CLIENT_IP lacks input validation, enabling HAProxy PROXY protocol injection",
+    "url": "https://hackerone.com/reports/3823932",
+    "upvotes": 12,
+    "bounty": 0.0,
+    "vuln_type": "CRLF Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Revive Adserver",
+    "title": "PHP code injection in delivery-limitation `logical` validation bypass - XML-RPC setChannelTargeting",
+    "url": "https://hackerone.com/reports/3781492",
+    "upvotes": 42,
+    "bounty": 0.0,
+    "vuln_type": "Code Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Revive Adserver",
+    "title": "XML‑RPC login leak exposes valid session ID enabling unauthorized API access",
+    "url": "https://hackerone.com/reports/3783738",
+    "upvotes": 27,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Revive Adserver",
+    "title": "Reflected XSS via unsanitised refresh parameter in zone invocation tag",
+    "url": "https://hackerone.com/reports/3780806",
+    "upvotes": 27,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Revive Adserver",
+    "title": "PHP code injection in delivery-limitation `logical` validation bypass",
+    "url": "https://hackerone.com/reports/3780854",
+    "upvotes": 29,
+    "bounty": 0.0,
+    "vuln_type": "Code Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Revive Adserver",
+    "title": "Stored XSS in maintenance tools via unescaped entity names",
+    "url": "https://hackerone.com/reports/3781311",
+    "upvotes": 20,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Stored",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Revive Adserver",
+    "title": "CSRF in zone‑include.php allows unauthorized banner and campaign linking",
+    "url": "https://hackerone.com/reports/3781691",
+    "upvotes": 14,
+    "bounty": 0.0,
+    "vuln_type": "Cross-Site Request Forgery (CSRF)",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Revive Adserver",
+    "title": "Missing ownership validation allows cross‑manager tracker–campaign linking",
+    "url": "https://hackerone.com/reports/3780709",
+    "upvotes": 14,
+    "bounty": 0.0,
+    "vuln_type": "Insecure Direct Object Reference (IDOR)",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Revive Adserver",
+    "title": "Reflected XSS in stats‑video.php via improperly encoded URL parameters",
+    "url": "https://hackerone.com/reports/3793243",
+    "upvotes": 8,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Node.js",
+    "title": "HTTP Response Queue Poisoning via TOCTOU Race Condition in `http.Agent`",
+    "url": "https://hackerone.com/reports/3582376",
+    "upvotes": 8,
+    "bounty": 0.0,
+    "vuln_type": "Time-of-check Time-of-use (TOCTOU) Race Condition",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Node.js",
+    "title": "Unix domain socket server bypasses --permission network restrictions (incomplete CVE-2026-21636 fix)",
+    "url": "https://hackerone.com/reports/3618831",
+    "upvotes": 6,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Node.js",
+    "title": "Node.js unicode dot separator handling can lead to tls wildcard-depth authentication bypass due to resolver and verifier hostname normalization mismat",
+    "url": "https://hackerone.com/reports/3688064",
+    "upvotes": 11,
+    "bounty": 0.0,
+    "vuln_type": "Improper Handling of Unicode Encoding",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Node.js",
+    "title": "Uppercase sni context matching can lead to mtls authorization bypass due to case-sensitive hostname matching",
+    "url": "https://hackerone.com/reports/3656869",
+    "upvotes": 6,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Node.js",
+    "title": "TLS host identity verification bypass via session reuse with different servername leads to unauthorized connections",
+    "url": "https://hackerone.com/reports/3649802",
+    "upvotes": 4,
+    "bounty": 0.0,
+    "vuln_type": "Exploiting Incorrectly Configured SSL/TLS",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Node.js",
+    "title": "Permission Model bypass via FileHandle.utimes() in the promises API",
+    "url": "https://hackerone.com/reports/3625987",
+    "upvotes": 3,
+    "bounty": 0.0,
+    "vuln_type": "Incorrect Default Permissions",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Node.js",
+    "title": "Proxy credentials leaked in ERR_PROXY_TUNNEL error message",
+    "url": "https://hackerone.com/reports/3720313",
+    "upvotes": 3,
+    "bounty": 0.0,
+    "vuln_type": "Privacy Violation",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Node.js",
+    "title": "Unbounded memory growth in `node:http2` clients via attacker-controlled ORIGIN frames",
+    "url": "https://hackerone.com/reports/3676863",
+    "upvotes": 2,
+    "bounty": 0.0,
+    "vuln_type": "Uncontrolled Resource Consumption",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Node.js",
+    "title": "Embedded-nul hostnames can lead to silent authority rebinding due to c-string truncation in resolver bindings",
+    "url": "https://hackerone.com/reports/3656716",
+    "upvotes": 3,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Node.js",
+    "title": "Node.js WebCrypto AES Integer Overflow Leads to Remote Process Abort (DoS)",
+    "url": "https://hackerone.com/reports/3760016",
+    "upvotes": 8,
+    "bounty": 0.0,
+    "vuln_type": "Integer Overflow",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "HTTPS proxy connection reuse lets one easy handle inherit another handle's mTLS-authenticated proxy session",
+    "url": "https://hackerone.com/reports/3735180",
+    "upvotes": 5,
+    "bounty": 0.0,
+    "vuln_type": "Exposure of Data Element to Wrong Session",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CVE-2026-11564: Native CA trust persist",
+    "url": "https://hackerone.com/reports/3788984",
+    "upvotes": 6,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CVE-2026-12064: proto-default skips SSH verification",
+    "url": "https://hackerone.com/reports/3797526",
+    "upvotes": 7,
+    "bounty": 0.0,
+    "vuln_type": "Improper Certificate Validation",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CVE-2026-11586: WS Auto-PONG memory exhaustion",
+    "url": "https://hackerone.com/reports/3788931",
+    "upvotes": 4,
+    "bounty": 0.0,
+    "vuln_type": "Allocation of Resources Without Limits or Throttling",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CVE-2026-11352: QUIC zero-length UDP datagrams busy-loop",
+    "url": "https://hackerone.com/reports/3783438",
+    "upvotes": 5,
+    "bounty": 0.0,
+    "vuln_type": "Uncontrolled Resource Consumption",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CVE-2026-10536: HTTP/2 stream-dependency tree UAF",
+    "url": "https://hackerone.com/reports/3751697",
+    "upvotes": 4,
+    "bounty": 0.0,
+    "vuln_type": "Buffer Over-read",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CVE-2026-8924: trailing dot domain super cookie",
+    "url": "https://hackerone.com/reports/3733905",
+    "upvotes": 0,
+    "bounty": 0.0,
+    "vuln_type": "Use of Incorrectly-Resolved Name or Reference",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CVE-2026-9547: SSH improper host validation",
+    "url": "https://hackerone.com/reports/3751712",
+    "upvotes": 1,
+    "bounty": 0.0,
+    "vuln_type": "Reusing a Nonce, Key Pair in Encryption",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CVE-2026-9546: sending old referer",
+    "url": "https://hackerone.com/reports/3754343",
+    "upvotes": 2,
+    "bounty": 0.0,
+    "vuln_type": "Use After Free",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CVE-2026-9079: stale proxy password leak",
+    "url": "https://hackerone.com/reports/3750295",
+    "upvotes": 2,
+    "bounty": 0.0,
+    "vuln_type": "Information Disclosure",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CVE-2026-9080: UAF after pause in socket callback",
+    "url": "https://hackerone.com/reports/3749204",
+    "upvotes": 2,
+    "bounty": 0.0,
+    "vuln_type": "Use After Free",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CVE-2026-8286: wrong STARTTLS connection reuse",
+    "url": "https://hackerone.com/reports/3718195",
+    "upvotes": 1,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CVE-2026-8932: incomplete mTLS config matching in conn reuse",
+    "url": "https://hackerone.com/reports/3733910",
+    "upvotes": 2,
+    "bounty": 0.0,
+    "vuln_type": "Business Logic Errors",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CVE-2026-8927: env-set cross-proxy Digest auth state leak",
+    "url": "https://hackerone.com/reports/3744543",
+    "upvotes": 1,
+    "bounty": 0.0,
+    "vuln_type": "Improper Authentication - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CVE-2026-8925: SASL double-free",
+    "url": "https://hackerone.com/reports/3735193",
+    "upvotes": 1,
+    "bounty": 0.0,
+    "vuln_type": "Double Free",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CVE-2026-8926: password leak with netrc and user in URL",
+    "url": "https://hackerone.com/reports/3735184",
+    "upvotes": 1,
+    "bounty": 0.0,
+    "vuln_type": "Information Disclosure",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CVE-2026-8458: wrong reuse for different services",
+    "url": "https://hackerone.com/reports/3721183",
+    "upvotes": 1,
+    "bounty": 0.0,
+    "vuln_type": "Authentication Bypass by Primary Weakness",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "SingleStore",
+    "title": "Insufficient checks in the file path parameter allow writing to unauthorized directories",
+    "url": "https://hackerone.com/reports/3384615",
+    "upvotes": 7,
+    "bounty": 0.0,
+    "vuln_type": "External Control of File Name or Path",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CVE-2026-9545: exposing HTTP/3 early data",
+    "url": "https://hackerone.com/reports/3752888",
+    "upvotes": 2,
+    "bounty": 0.0,
+    "vuln_type": "Improper Certificate Validation",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CVE-2026-11856: cross-origin Digest auth state leak",
+    "url": "https://hackerone.com/reports/3793260",
+    "upvotes": 1,
+    "bounty": 0.0,
+    "vuln_type": "Information Exposure Through Sent Data",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Mozilla",
+    "title": "Taskcluster web-server OAuth2 authorization codes are reusable and the exchange handler checks the wrong expiry column",
+    "url": "https://hackerone.com/reports/3734676",
+    "upvotes": 27,
+    "bounty": 2000.0,
+    "vuln_type": "Authentication Bypass by Capture-replay",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Node.js",
+    "title": "Node --run POSIX positional argument escaping allows shell command injection",
+    "url": "https://hackerone.com/reports/3817602",
+    "upvotes": 10,
+    "bounty": 0.0,
+    "vuln_type": "OS Command Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Khan Academy",
+    "title": "1-Click Account Takeover via Open Redirect through Regex Bypass in Domain Validation",
+    "url": "https://hackerone.com/reports/3723458",
+    "upvotes": 104,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Node.js",
+    "title": "HTTP/2 sessions never clean up after GOAWAY on invalid protocol errors",
+    "url": "https://hackerone.com/reports/3658225",
+    "upvotes": 32,
+    "bounty": 0.0,
+    "vuln_type": "Uncontrolled Resource Consumption",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Node.js",
+    "title": "Permission Model Bypass via `process.report.writeReport()` Path Misvalidation",
+    "url": "https://hackerone.com/reports/3692858",
+    "upvotes": 28,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Shopify",
+    "title": "Reflected XSS in AI Chat Bot Greetings at help.shopify.com via Markdown Image Rendering",
+    "url": "https://hackerone.com/reports/2509022",
+    "upvotes": 82,
+    "bounty": 1600.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "HackerOne",
+    "title": "Authenticated Elasticsearch Painless script execution via Query.search.sort_query on hackerone.com/graphql",
+    "url": "https://hackerone.com/reports/3694007",
+    "upvotes": 140,
+    "bounty": 0.0,
+    "vuln_type": "Code Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "verify-release rebuilds from the tarball under verification, enabling pre-check command execution and false OK for a malicious curl release tarball",
+    "url": "https://hackerone.com/reports/3802645",
+    "upvotes": 11,
+    "bounty": 0.0,
+    "vuln_type": "Reliance on Untrusted Inputs in a Security Decision",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Vulnerability Report: Buffer Overflow in Path Sanitization",
+    "url": "https://hackerone.com/reports/3804525",
+    "upvotes": 28,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Rocket.Chat",
+    "title": "Unauthenticated file deletion via deleteFileMessage DDP method allows permanent destruction of any uploaded file",
+    "url": "https://hackerone.com/reports/3611837",
+    "upvotes": 31,
+    "bounty": 0.0,
+    "vuln_type": "Improper Authentication - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Tor",
+    "title": "Malicious Conflux Endpoint Can Leave Stale Global OOO Queue Accounting After Teardown",
+    "url": "https://hackerone.com/reports/3701692",
+    "upvotes": 32,
+    "bounty": 100.0,
+    "vuln_type": "Uncontrolled Resource Consumption",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Rocket.Chat",
+    "title": "Unauthenticated reading of every file via livechat auth and predicting MongoDB ObjectId()",
+    "url": "https://hackerone.com/reports/3687142",
+    "upvotes": 42,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "IBM",
+    "title": "Reflected Cross-Site Scripting (XSS) found on IBM.com domain",
+    "url": "https://hackerone.com/reports/3664261",
+    "upvotes": 27,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Incomplete Suppression of  Transfer-Encoding: chunked Header in HTTP/2 After Redirect From HTTP/1.1",
+    "url": "https://hackerone.com/reports/3793495",
+    "upvotes": 20,
+    "bounty": 0.0,
+    "vuln_type": "HTTP Request Smuggling",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Secure cookies leaked to HTTP origins through HTTPS forwarding proxy",
+    "url": "https://hackerone.com/reports/3803415",
+    "upvotes": 13,
+    "bounty": 0.0,
+    "vuln_type": "Information Disclosure",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "PortSwigger Web Security",
+    "title": "UI Consent Bypass via Comma Injection in `addAutoApproveTarget` — User-Approval Dialog and Persistence Layer Disagree on Target Scope, Yielding Authen",
+    "url": "https://hackerone.com/reports/3717354",
+    "upvotes": 26,
+    "bounty": 0.0,
+    "vuln_type": "LLM09:2025 Misinformation",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "PortSwigger Web Security",
+    "title": "Burp Suite Professional: browser-powered crawl can write attacker-controlled files through file input handling",
+    "url": "https://hackerone.com/reports/3712279",
+    "upvotes": 151,
+    "bounty": 5000.0,
+    "vuln_type": "Path Traversal",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Duplicate chunked Transfer-Encoding lets a malicious origin smuggle a response across reused HTTP proxy connections",
+    "url": "https://hackerone.com/reports/3795615",
+    "upvotes": 17,
+    "bounty": 0.0,
+    "vuln_type": "HTTP Request Smuggling",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Node.js",
+    "title": "Incomplete Fix for CVE-2026-21637: OCSPRequest and resumeSession Events Crash Node.js TLS Server via Unhandled Synchronous Exceptions",
+    "url": "https://hackerone.com/reports/3781015",
+    "upvotes": 40,
+    "bounty": 0.0,
+    "vuln_type": "Uncontrolled Resource Consumption",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "AWS VDP",
+    "title": "Command Injection via Unsanitized Bundling Options in `aws-cdk-lib/aws-lambda-nodejs`",
+    "url": "https://hackerone.com/reports/3558713",
+    "upvotes": 46,
+    "bounty": 0.0,
+    "vuln_type": "OS Command Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "AWS VDP",
+    "title": "Firecracker Out-of-bounds Read/Write Local Privilege Escalation Vulnerability",
+    "url": "https://hackerone.com/reports/3738654",
+    "upvotes": 31,
+    "bounty": 0.0,
+    "vuln_type": "Out-of-bounds Read",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CRLF Injection via Custom HTTP Headers",
+    "url": "https://hackerone.com/reports/3741744",
+    "upvotes": 19,
+    "bounty": 0.0,
+    "vuln_type": "CRLF Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "heap-use-after-free in state.referer when CURLOPT_REFERER replaced or cleared after perform",
+    "url": "https://hackerone.com/reports/3774279",
+    "upvotes": 21,
+    "bounty": 0.0,
+    "vuln_type": "Use After Free",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "DuckDuckGo",
+    "title": "RCE + PAT Exfiltration via pull_request_target in privacy-configuration/auto-respond-pr.yml — Direct Supply Chain to All DDG Browsers",
+    "url": "https://hackerone.com/reports/3619288",
+    "upvotes": 60,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "DuckDuckGo",
+    "title": "RCE + Supply Chain Attack via pull_request_target in content-scope-scripts/semver-label.yml — Affects All DuckDuckGo Browsers",
+    "url": "https://hackerone.com/reports/3619287",
+    "upvotes": 38,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Rocket.Chat",
+    "title": "SSRF via Improper Redirect Validation in Rocket.Chat oEmbed Function",
+    "url": "https://hackerone.com/reports/3383079",
+    "upvotes": 23,
+    "bounty": 0.0,
+    "vuln_type": "Server-Side Request Forgery (SSRF)",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Rocket.Chat",
+    "title": "SSRF via improper validation after DNS name resolution in the link-preview feature",
+    "url": "https://hackerone.com/reports/3393664",
+    "upvotes": 23,
+    "bounty": 0.0,
+    "vuln_type": "Server-Side Request Forgery (SSRF)",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "curl-ipv4-percent-normalization-SSRF",
+    "url": "https://hackerone.com/reports/3791168",
+    "upvotes": 11,
+    "bounty": 0.0,
+    "vuln_type": "Server-Side Request Forgery (SSRF)",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Trailing-Dot Hostname in Redirect Silently Strips Client Certificate and Auth Credentials",
+    "url": "https://hackerone.com/reports/3791191",
+    "upvotes": 10,
+    "bounty": 0.0,
+    "vuln_type": "Improper Authentication - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "curl/libcurl vulnerable to TLS truncation attacks",
+    "url": "https://hackerone.com/reports/1826392",
+    "upvotes": 7,
+    "bounty": 0.0,
+    "vuln_type": "Business Logic Errors",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "SSH/SFTP connection reuse can bypass SSH key identity after ssh_config_matches removal",
+    "url": "https://hackerone.com/reports/3788506",
+    "upvotes": 28,
+    "bounty": 0.0,
+    "vuln_type": "Authentication Bypass by Primary Weakness",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "SOCKS5 no-auth accepted despite username/password-only authentication",
+    "url": "https://hackerone.com/reports/3786077",
+    "upvotes": 10,
+    "bounty": 0.0,
+    "vuln_type": "Improper Authentication - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Ruby on Rails",
+    "title": "Action Text ReDoS (Ruby 3.1  or lower)",
+    "url": "https://hackerone.com/reports/2389431",
+    "upvotes": 28,
+    "bounty": 0.0,
+    "vuln_type": "Uncontrolled Resource Consumption",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "libcurl: HTTP/1.x bare LF byte in response header value enables cookie jar pollution and POST body/credential exfiltration via redirect — RC=0, curl 8",
+    "url": "https://hackerone.com/reports/3785919",
+    "upvotes": 17,
+    "bounty": 0.0,
+    "vuln_type": "HTTP Response Splitting",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "DNS domain search list followed for extant domain missing A or AAAA records",
+    "url": "https://hackerone.com/reports/3780733",
+    "upvotes": 11,
+    "bounty": 0.0,
+    "vuln_type": "Use of Incorrectly-Resolved Name or Reference",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "OpenSSL TLS 1.2 session resumption accepts expired server certificates in libcurl",
+    "url": "https://hackerone.com/reports/3781305",
+    "upvotes": 13,
+    "bounty": 0.0,
+    "vuln_type": "Improper Validation of Certificate Expiration",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "curl cross-origin HTTPS redirect reuses TLS client certificate for unintended second-origin mTLS authentication",
+    "url": "https://hackerone.com/reports/3749428",
+    "upvotes": 10,
+    "bounty": 0.0,
+    "vuln_type": "Insufficiently Protected Credentials",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "curl External-Controlled Filename in `--url @file` Leads to Arbitrary File Overwrite",
+    "url": "https://hackerone.com/reports/3766392",
+    "upvotes": 12,
+    "bounty": 0.0,
+    "vuln_type": "External Control of File Name or Path",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Nextcloud",
+    "title": "Valid share tokens allow to access tempory upload files of share owner",
+    "url": "https://hackerone.com/reports/3483708",
+    "upvotes": 25,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Nextcloud",
+    "title": "Authentication Bypass in ID4me handling via Missing JWT Signature Verification in User OIDC",
+    "url": "https://hackerone.com/reports/3489490",
+    "upvotes": 48,
+    "bounty": 2500.0,
+    "vuln_type": "Improper Authentication - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Nextcloud",
+    "title": "PIN bypass in PassCodeActivity via back button",
+    "url": "https://hackerone.com/reports/3625210",
+    "upvotes": 13,
+    "bounty": 0.0,
+    "vuln_type": "Improper Authentication - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "GnuTLS OCSP stapling accepts unrelated SingleResponse (no cert-ID binding)",
+    "url": "https://hackerone.com/reports/3784125",
+    "upvotes": 22,
+    "bounty": 0.0,
+    "vuln_type": "Improper Certificate Validation",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Sony",
+    "title": "DLL side-loading vulnerability in Sony Music Center for PC Ver. 2.7.2 (Latest version)",
+    "url": "https://hackerone.com/reports/3355766",
+    "upvotes": 108,
+    "bounty": 0.0,
+    "vuln_type": "Uncontrolled Search Path Element",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CURLOPT_PROXY_CRLFILE / CURLOPT_PROXY_ISSUERCERT / CURLOPT_PROXY_ISSUERCERT_BLOB silently ignored on backends that don't support them",
+    "url": "https://hackerone.com/reports/3717552",
+    "upvotes": 12,
+    "bounty": 0.0,
+    "vuln_type": "Improper Check for Certificate Revocation",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Shared HSTS cache accessed without lock",
+    "url": "https://hackerone.com/reports/3718265",
+    "upvotes": 12,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "RTSP Digest auth state leaks across origins on reused libcurl easy handle",
+    "url": "https://hackerone.com/reports/3776535",
+    "upvotes": 9,
+    "bounty": 0.0,
+    "vuln_type": "Information Exposure Through Sent Data",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "TFTP upload ignores --continue-at / CURLOPT_RESUME_FROM and leaks skipped local file prefix",
+    "url": "https://hackerone.com/reports/3776433",
+    "upvotes": 7,
+    "bounty": 0.0,
+    "vuln_type": "Information Exposure Through Sent Data",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "libcurl 8.20.0 ignores HTTP Digest domain protection space and preemptively leaks Digest auth outside the declared scope",
+    "url": "https://hackerone.com/reports/3774977",
+    "upvotes": 5,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CURLOPT_COOKIE leaked to cross-origin redirect target — CURLOPT_UNRESTRICTED_AUTH bypass for the STRING_COOKIE path",
+    "url": "https://hackerone.com/reports/3766065",
+    "upvotes": 3,
+    "bounty": 0.0,
+    "vuln_type": "Information Disclosure",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Revive Adserver",
+    "title": "Missing access control when linking banners or campaigns to zones",
+    "url": "https://hackerone.com/reports/3650504",
+    "upvotes": 40,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Revive Adserver",
+    "title": "Missing access control when linking trackers to campaigns",
+    "url": "https://hackerone.com/reports/3650582",
+    "upvotes": 33,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Revive Adserver",
+    "title": "Blind SQL injection via clientid parameter in zone‑include.php",
+    "url": "https://hackerone.com/reports/3653196",
+    "upvotes": 46,
+    "bounty": 0.0,
+    "vuln_type": "SQL Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Revive Adserver",
+    "title": "Reflected XSS via clientid parameter in zone‑include.php",
+    "url": "https://hackerone.com/reports/3653316",
+    "upvotes": 23,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Revive Adserver",
+    "title": "PHP code injection via delivery limitation logical",
+    "url": "https://hackerone.com/reports/3656781",
+    "upvotes": 34,
+    "bounty": 0.0,
+    "vuln_type": "Code Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Revive Adserver",
+    "title": "Stored XSS via Full Name field in userlog email entries",
+    "url": "https://hackerone.com/reports/3669623",
+    "upvotes": 20,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Stored",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Revive Adserver",
+    "title": "Session ID reuse allowing XML‑RPC API authentication bypass",
+    "url": "https://hackerone.com/reports/3672641",
+    "upvotes": 6,
+    "bounty": 0.0,
+    "vuln_type": "Improper Authentication - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Revive Adserver",
+    "title": "Missing access control when modifying parent entities via XML‑RPC",
+    "url": "https://hackerone.com/reports/3677576",
+    "upvotes": 6,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Revive Adserver",
+    "title": "Banner status override by advertiser‑level users",
+    "url": "https://hackerone.com/reports/3678828",
+    "upvotes": 3,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Revive Adserver",
+    "title": "Stored XSS via malicious usernames in audit log details + Username validation bypass in XML‑RPC addUser",
+    "url": "https://hackerone.com/reports/3680090",
+    "upvotes": 7,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Stored",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Revive Adserver",
+    "title": "PHP code injection via unexpected delivery limitation parameter",
+    "url": "https://hackerone.com/reports/3744200",
+    "upvotes": 10,
+    "bounty": 0.0,
+    "vuln_type": "Code Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "PRE_PROXY change leaks stale Proxy Digest state across proxy-chain boundary",
+    "url": "https://hackerone.com/reports/3777381",
+    "upvotes": 1,
+    "bounty": 0.0,
+    "vuln_type": "Information Disclosure",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "curl/libcurl 8.20.0 NOPROXY bypass via uppercase-hex IPv4 aliases leaks off-proxy Basic credentials to the configured proxy",
+    "url": "https://hackerone.com/reports/3773293",
+    "upvotes": 2,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "SMTP connection reuse ignores --ssl-reqd / CURLOPT_USE_SSL and reuses a clear-text STARTTLS session on current master",
+    "url": "https://hackerone.com/reports/3770979",
+    "upvotes": 1,
+    "bounty": 0.0,
+    "vuln_type": "Cleartext Transmission of Sensitive Information",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Proxy CONNECT response poisoning via authentication retry in cf-h1-proxy.c (libcurl)",
+    "url": "https://hackerone.com/reports/3767963",
+    "upvotes": 2,
+    "bounty": 0.0,
+    "vuln_type": "Business Logic Errors",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "PortSwigger Web Security",
+    "title": "Incomplete fix for CVE-2022-35406: meta-redirect content-type check bypassable via parameter injection",
+    "url": "https://hackerone.com/reports/3775183",
+    "upvotes": 18,
+    "bounty": 0.0,
+    "vuln_type": "Open Redirect",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "LY Corporation",
+    "title": "page.line.me Open Redirect Leading to OAuth Authorization Code Exposure and Access Token Compromise",
+    "url": "https://hackerone.com/reports/3423013",
+    "upvotes": 43,
+    "bounty": 1000.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Shopify",
+    "title": "Missing HMAC validation on /uninstall webhook in Shopify/sample-django-app reference template",
+    "url": "https://hackerone.com/reports/3697491",
+    "upvotes": 18,
+    "bounty": 0.0,
+    "vuln_type": "Improper Verification of Cryptographic Signature",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Mentioned unites are at the same time .Then we have to increase the bounty.",
+    "url": "https://hackerone.com/reports/3761789",
+    "upvotes": 16,
+    "bounty": 0.0,
+    "vuln_type": "Forced Browsing",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "TLS conn reuse and session cache ignore fsslctx callback and ssl_config_data flags ( incomplete fix variant of 7541ae569 )",
+    "url": "https://hackerone.com/reports/3761647",
+    "upvotes": 15,
+    "bounty": 0.0,
+    "vuln_type": "Insufficiently Protected Credentials",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "lib/ldap.c follows attacker-controlled LDAP referrals and binds to a second server; WinLDAP builds leak current logon credentials (confirmed on Window",
+    "url": "https://hackerone.com/reports/3756699",
+    "upvotes": 8,
+    "bounty": 0.0,
+    "vuln_type": "Insufficiently Protected Credentials",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Use-after-free in `curl_easy_duphandle()` with HTTP/2 stream-dependency tree",
+    "url": "https://hackerone.com/reports/3751701",
+    "upvotes": 5,
+    "bounty": 0.0,
+    "vuln_type": "Use After Free",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Low priority HSTS bypass in curl_easy_duphandle()",
+    "url": "https://hackerone.com/reports/3769293",
+    "upvotes": 5,
+    "bounty": 0.0,
+    "vuln_type": "Information Exposure Through Sent Data",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "phpBB",
+    "title": "Blind POST SSRF via Web Push Notification Endpoint",
+    "url": "https://hackerone.com/reports/3608558",
+    "upvotes": 31,
+    "bounty": 0.0,
+    "vuln_type": "Server-Side Request Forgery (SSRF)",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "AWS VDP",
+    "title": "V1Plugin.Decrypt panics on empty ciphertext (Remote DoS)",
+    "url": "https://hackerone.com/reports/3620748",
+    "upvotes": 41,
+    "bounty": 0.0,
+    "vuln_type": "Array Index Underflow",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "AWS VDP",
+    "title": "V2Plugin.Decrypt panics on empty ciphertext (Remote DoS)",
+    "url": "https://hackerone.com/reports/3620753",
+    "upvotes": 25,
+    "bounty": 0.0,
+    "vuln_type": "Array Index Underflow",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Brave Software",
+    "title": "iOS Brave Playlist \"Open in Private Tab\" bypasses FaceID requirement for Private Tabs",
+    "url": "https://hackerone.com/reports/3693295",
+    "upvotes": 47,
+    "bounty": 0.0,
+    "vuln_type": "Improper Authentication - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Heap-OOB read in urlapi `redirect_url()` via `CURLU_GUESS_SCHEME` + `CURLU_NO_GUESS_SCHEME` flow",
+    "url": "https://hackerone.com/reports/3751715",
+    "upvotes": 27,
+    "bounty": 0.0,
+    "vuln_type": "Buffer Over-read",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "curl GnuTLS backend accepts a clientAuth-only certificate for HTTPS server authentication",
+    "url": "https://hackerone.com/reports/3752567",
+    "upvotes": 24,
+    "bounty": 0.0,
+    "vuln_type": "Improper Certificate Validation",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Rocket.Chat",
+    "title": "Autotranslate DDP Method Exposes Private Messages Without Authentication or Room Access Check",
+    "url": "https://hackerone.com/reports/3734326",
+    "upvotes": 69,
+    "bounty": 0.0,
+    "vuln_type": "Insecure Direct Object Reference (IDOR)",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Node.js",
+    "title": "NULL pointer dereference in node:sqlite DatabaseSync#applyChangeset() via malformed SQLite changeset",
+    "url": "https://hackerone.com/reports/3736889",
+    "upvotes": 44,
+    "bounty": 0.0,
+    "vuln_type": "NULL Pointer Dereference",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Node.js",
+    "title": "Memory Corruption via TOCTOU Race in SharedArrayBuffer UTF-8 Decode (`StringBytes::Encode`)",
+    "url": "https://hackerone.com/reports/3752489",
+    "upvotes": 31,
+    "bounty": 0.0,
+    "vuln_type": "Time-of-check Time-of-use (TOCTOU) Race Condition",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Nextcloud",
+    "title": "Group restriction bypass via bearer token in user_oidc (SETTING_RESTRICT_LOGIN_TO_GROUPS not enforced in Backend::getCurrentUserId)",
+    "url": "https://hackerone.com/reports/3572848",
+    "upvotes": 68,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "curl --skip-existing has a TOCTOU race that lets a post-check symlink redirect the later download write",
+    "url": "https://hackerone.com/reports/3747959",
+    "upvotes": 42,
+    "bounty": 0.0,
+    "vuln_type": "Time-of-check Time-of-use (TOCTOU) Race Condition",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Credentials forwarded to HTTP after HTTPS→HTTP same-port redirect — url_set_data_creds uses scheme-blind comparator",
+    "url": "https://hackerone.com/reports/3733946",
+    "upvotes": 35,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "CoinMate.io",
+    "title": "POST /api/bitcoinWithdrawalFees returns financial data without authentication despite being documented as a USER OPERATION (private endpoint)",
+    "url": "https://hackerone.com/reports/3676308",
+    "upvotes": 90,
+    "bounty": 0.0,
+    "vuln_type": "Improper Authentication - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "CoinMate.io",
+    "title": "HMAC signature verification omits endpoint and payload allowing request forgery on CoinMate API",
+    "url": "https://hackerone.com/reports/3670955",
+    "upvotes": 66,
+    "bounty": 0.0,
+    "vuln_type": "Missing Required Cryptographic Step",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "HTTP/3 paused transfer buffers incoming data without bound up to ~1 GiB",
+    "url": "https://hackerone.com/reports/3734947",
+    "upvotes": 39,
+    "bounty": 0.0,
+    "vuln_type": "Allocation of Resources Without Limits or Throttling",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Schannel custom-CA path skips Extended Key Usage enforcement",
+    "url": "https://hackerone.com/reports/3734992",
+    "upvotes": 30,
+    "bounty": 0.0,
+    "vuln_type": "Business Logic Errors",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Connection reuse ignores haproxyprotocol and HAPROXY_CLIENT_IP settings, allowing PROXY context to persist across transfers",
+    "url": "https://hackerone.com/reports/3741135",
+    "upvotes": 22,
+    "bounty": 0.0,
+    "vuln_type": "Incorrect Authorization",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "SSL session-cache peer key omits signature_algorithms: strict-sigalg handle silently resumes a permissive sibling's session",
+    "url": "https://hackerone.com/reports/3739561",
+    "upvotes": 17,
+    "bounty": 0.0,
+    "vuln_type": "Improper Certificate Validation",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CURLOPT_PROXY_CAINFO_BLOB silently activates native CA store on Apple builds",
+    "url": "https://hackerone.com/reports/3735179",
+    "upvotes": 15,
+    "bounty": 0.0,
+    "vuln_type": "Business Logic Errors",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "TLS peer-verification bypass via mid-transfer ssl_config mutation",
+    "url": "https://hackerone.com/reports/3735276",
+    "upvotes": 11,
+    "bounty": 0.0,
+    "vuln_type": "Business Logic Errors",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "TLS verifyhost bypass in rustls, mbedTLS, and wolfSSL when verifypeer=0",
+    "url": "https://hackerone.com/reports/3734095",
+    "upvotes": 7,
+    "bounty": 0.0,
+    "vuln_type": "Business Logic Errors",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "HTTP/2 proxy CONNECT tunnel unbounded 1xx chain (missing Curl_bump_headersize cap in cf-h2-proxy.c)",
+    "url": "https://hackerone.com/reports/3734020",
+    "upvotes": 7,
+    "bounty": 0.0,
+    "vuln_type": "Allocation of Resources Without Limits or Throttling",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "GitHub",
+    "title": "Cross-repository IDOR in `/settings/security_analysis/bypass_reviewers` allows unauthorized delegated bypass reviewer modification",
+    "url": "https://hackerone.com/reports/3560256",
+    "upvotes": 101,
+    "bounty": 0.0,
+    "vuln_type": "Insecure Direct Object Reference (IDOR)",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CURLOPT_HSTS_CTRL disables shared HSTS without share guard — use-after-free and double-free",
+    "url": "https://hackerone.com/reports/3733934",
+    "upvotes": 12,
+    "bounty": 0.0,
+    "vuln_type": "Use After Free",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "cookie: case-insensitive path comparison in replace_existing() allows cookie eviction across distinct paths",
+    "url": "https://hackerone.com/reports/3735238",
+    "upvotes": 13,
+    "bounty": 0.0,
+    "vuln_type": "Business Logic Errors",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "libssh SFTP initialization ignores CURLOPT_TIMEOUT, hangs indefinitely",
+    "url": "https://hackerone.com/reports/3735080",
+    "upvotes": 12,
+    "bounty": 0.0,
+    "vuln_type": "Allocation of Resources Without Limits or Throttling",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "rustls backend silently ignores CURLOPT_CRLFILE when native CA store is active",
+    "url": "https://hackerone.com/reports/3734935",
+    "upvotes": 8,
+    "bounty": 0.0,
+    "vuln_type": "Business Logic Errors",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "HSTS multi-trailing-dot bypass-ish: possible incomplete fix for CVE-2022-30115",
+    "url": "https://hackerone.com/reports/3733984",
+    "upvotes": 9,
+    "bounty": 0.0,
+    "vuln_type": "Cleartext Transmission of Sensitive Information",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Enjin",
+    "title": "Unauthenticated File Upload to CDN",
+    "url": "https://hackerone.com/reports/3589247",
+    "upvotes": 52,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Rocket.Chat",
+    "title": "IDOR: autotranslate.translateMessage Full Message Content Leak",
+    "url": "https://hackerone.com/reports/3713682",
+    "upvotes": 39,
+    "bounty": 0.0,
+    "vuln_type": "Insecure Direct Object Reference (IDOR)",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Trailing-dot IPv4 URL bypasses IP-address guard, allows wildcard DNS SAN match",
+    "url": "https://hackerone.com/reports/3734921",
+    "upvotes": 10,
+    "bounty": 0.0,
+    "vuln_type": "Business Logic Errors",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "NULL pointer dereference in libcurl URL API redirect_url() with CURLU_DEFAULT_SCHEME",
+    "url": "https://hackerone.com/reports/3736234",
+    "upvotes": 5,
+    "bounty": 0.0,
+    "vuln_type": "NULL Pointer Dereference",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Nextcloud",
+    "title": "SQL Injection in Column Type Parameter Allows Arbitrary SQL Execution",
+    "url": "https://hackerone.com/reports/3462991",
+    "upvotes": 79,
+    "bounty": 0.0,
+    "vuln_type": "SQL Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Kerberos/SPNEGO Connection Reuse Vulnerability",
+    "url": "https://hackerone.com/reports/3725659",
+    "upvotes": 22,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "AWS VDP",
+    "title": "QuickSight Authorization Bypass: Chat Agents Accessible Despite Custom Permissions Denial",
+    "url": "https://hackerone.com/reports/3577145",
+    "upvotes": 58,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Liberapay",
+    "title": "another liberapay member team twitter account broken Link Hijacking via Expired Twitter Account Link",
+    "url": "https://hackerone.com/reports/3723002",
+    "upvotes": 77,
+    "bounty": 0.0,
+    "vuln_type": "Open Redirect",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Liberapay",
+    "title": "Liberapay member team twitter account broken Link Hijacking via Expired Twitter Account Link",
+    "url": "https://hackerone.com/reports/3721519",
+    "upvotes": 64,
+    "bounty": 0.0,
+    "vuln_type": "Open Redirect",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Nextcloud",
+    "title": "Private circle can be added to another circle via API despite visibility restriction",
+    "url": "https://hackerone.com/reports/3511998",
+    "upvotes": 84,
+    "bounty": 150.0,
+    "vuln_type": "Insecure Direct Object Reference (IDOR)",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Nextcloud",
+    "title": "Files drop share links for end-to-end encrypted folders allowed to drop files into other folders of the share owner",
+    "url": "https://hackerone.com/reports/3304830",
+    "upvotes": 58,
+    "bounty": 0.0,
+    "vuln_type": "Insecure Direct Object Reference (IDOR)",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Nextcloud",
+    "title": "View-only guests could see deleted Collectives pages in the trashbin",
+    "url": "https://hackerone.com/reports/3521434",
+    "upvotes": 59,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "mbedTLS private-key blob null-termination asymmetry in lib/vtls/mbedtls.c (mbed_load_privkey)",
+    "url": "https://hackerone.com/reports/3717365",
+    "upvotes": 42,
+    "bounty": 0.0,
+    "vuln_type": "Improper Null Termination",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Ruby on Rails",
+    "title": "ActiveStorage Disk Service Path Traversal via Custom Blob Key Injection",
+    "url": "https://hackerone.com/reports/3580511",
+    "upvotes": 57,
+    "bounty": 0.0,
+    "vuln_type": "Path Traversal",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Monero",
+    "title": "Critical Deadlock Vulnerability in Monero RPC Leading to Complete Node Paralysis",
+    "url": "https://hackerone.com/reports/3307874",
+    "upvotes": 92,
+    "bounty": 0.0,
+    "vuln_type": "Uncontrolled Resource Consumption",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Monero",
+    "title": "Connection Count Bug in Monero Node Enables Outbound Peer Reset Attack",
+    "url": "https://hackerone.com/reports/3185083",
+    "upvotes": 39,
+    "bounty": 0.0,
+    "vuln_type": "Privacy Violation",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "wcurl treats some URL operands after -- as curl options",
+    "url": "https://hackerone.com/reports/3708482",
+    "upvotes": 23,
+    "bounty": 0.0,
+    "vuln_type": "Improper Neutralization of Value Delimiters",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "PortSwigger Web Security",
+    "title": "Out of scope: Improper Input Validation Order on /api-internal/login via password field leads to unnecessary resource consumption",
+    "url": "https://hackerone.com/reports/3625600",
+    "upvotes": 87,
+    "bounty": 200.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Potential Resource Leak in tool_parsecfg.c at line 279 during fileerror",
+    "url": "https://hackerone.com/reports/3710209",
+    "upvotes": 21,
+    "bounty": 0.0,
+    "vuln_type": "Uncontrolled Resource Consumption",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "libcurl 8.20.0 incomplete fix for CVE-2026-7168: changing only CURLOPT_PROXYPORT leaks stale Proxy Digest auth to a different proxy",
+    "url": "https://hackerone.com/reports/3707747",
+    "upvotes": 18,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "MQTT CONNACK Packet Type Bypass leads to RCE via Malicious Broker",
+    "url": "https://hackerone.com/reports/3712343",
+    "upvotes": 29,
+    "bounty": 0.0,
+    "vuln_type": "ASI05: Unexpected Code Execution (RCE)",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Nextcloud",
+    "title": "Improper input validation On Exported deep-link handler crashes `FileDisplayActivity` on crafted external URL — Denial-of-Service",
+    "url": "https://hackerone.com/reports/3399016",
+    "upvotes": 64,
+    "bounty": 0.0,
+    "vuln_type": "Improper Null Termination",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "PlayStation",
+    "title": "Double fdrop on a socket through sys_netcontrol",
+    "url": "https://hackerone.com/reports/3320669",
+    "upvotes": 217,
+    "bounty": 10000.0,
+    "vuln_type": "Double Free",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "MQTT state machine confusion: PINGRESP/DISCONNECT with non-zero remaining_length dispatches to stale nextstate",
+    "url": "https://hackerone.com/reports/3702718",
+    "upvotes": 36,
+    "bounty": 0.0,
+    "vuln_type": "Improper Input Validation",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Use-After-Free in SMB connection reuse (req->path dangling pointer after needle destruction)",
+    "url": "https://hackerone.com/reports/3591956",
+    "upvotes": 57,
+    "bounty": 0.0,
+    "vuln_type": "Use After Free",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Negotiate connection reuse with wrong credentials when using CURLAUTH_ANY",
+    "url": "https://hackerone.com/reports/3646072",
+    "upvotes": 45,
+    "bounty": 0.0,
+    "vuln_type": "Authentication Bypass by Primary Weakness",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Negotiate Authentication Premature on Connection Reuse",
+    "url": "https://hackerone.com/reports/3666576",
+    "upvotes": 39,
+    "bounty": 0.0,
+    "vuln_type": "Improper Authentication - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CVE-2026-7168: cross-proxy Digest auth state leak",
+    "url": "https://hackerone.com/reports/3697719",
+    "upvotes": 37,
+    "bounty": 0.0,
+    "vuln_type": "Exposure of Data Element to Wrong Session",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CVE-2026-7009: OCSP stapling bypass with Apple SecTrust",
+    "url": "https://hackerone.com/reports/3694390",
+    "upvotes": 33,
+    "bounty": 0.0,
+    "vuln_type": "Improper Certificate Validation",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CVE-2026-6253: proxy credentials leak over redirect-to proxy",
+    "url": "https://hackerone.com/reports/3669637",
+    "upvotes": 24,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CVE-2026-5545: wrong reuse of HTTP Negotiate connection",
+    "url": "https://hackerone.com/reports/3642555",
+    "upvotes": 22,
+    "bounty": 0.0,
+    "vuln_type": "Authentication Bypass by Primary Weakness",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CVE-2026-6276: stale custom cookie host causes cookie leak",
+    "url": "https://hackerone.com/reports/3671818",
+    "upvotes": 24,
+    "bounty": 0.0,
+    "vuln_type": "Exposure of Data Element to Wrong Session",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CVE-2026-6429: netrc credential leak with reused proxy connection",
+    "url": "https://hackerone.com/reports/3677759",
+    "upvotes": 19,
+    "bounty": 0.0,
+    "vuln_type": "Information Exposure Through Sent Data",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CVE-2026-4873: connection reuse ignores TLS requirement",
+    "url": "https://hackerone.com/reports/3621851",
+    "upvotes": 13,
+    "bounty": 0.0,
+    "vuln_type": "Cleartext Transmission of Sensitive Information",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CVE-2026-5773: wrong reuse of SMB connection",
+    "url": "https://hackerone.com/reports/3650689",
+    "upvotes": 12,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Use-after-free in `curl_easy_ssls_export()` during callback re-entrancy",
+    "url": "https://hackerone.com/reports/3682666",
+    "upvotes": 8,
+    "bounty": 0.0,
+    "vuln_type": "Use After Free",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Heap-buffer-overflow in `Curl_ssl_push_certinfo_len()` — sole bounds check is `DEBUGASSERT`",
+    "url": "https://hackerone.com/reports/3684614",
+    "upvotes": 7,
+    "bounty": 0.0,
+    "vuln_type": "Out-of-bounds Read",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Stack exhaustion in MIME multipart reading with deeply nested subparts",
+    "url": "https://hackerone.com/reports/3684603",
+    "upvotes": 4,
+    "bounty": 0.0,
+    "vuln_type": "Uncontrolled Recursion",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "PlayStation",
+    "title": "PS4 BD-J privilege escalation using nested JAR",
+    "url": "https://hackerone.com/reports/3452696",
+    "upvotes": 80,
+    "bounty": 2500.0,
+    "vuln_type": "Privilege Escalation",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "IBM",
+    "title": "IBM Aspera HTTP Gateway stores sensitive information in clear text in easily obtainable files which can be read by an unauthenticated user.",
+    "url": "https://hackerone.com/reports/3340797",
+    "upvotes": 45,
+    "bounty": 0.0,
+    "vuln_type": "Information Disclosure",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Mozilla",
+    "title": "Bypass of Restricted Keyword \"Mozilla\" in Display Name Field via Unicode Homoglyphs on addons.allizom.org",
+    "url": "https://hackerone.com/reports/3279441",
+    "upvotes": 91,
+    "bounty": 500.0,
+    "vuln_type": "Improper Input Validation",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "pixiv",
+    "title": "Bypassing Inbox Privacy Settings and Enabling Spam on Pixiv.net",
+    "url": "https://hackerone.com/reports/3100570",
+    "upvotes": 52,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "pixiv",
+    "title": "Non-premium user can disable Ads in japanese version of dic.pixiv.net",
+    "url": "https://hackerone.com/reports/3183520",
+    "upvotes": 111,
+    "bounty": 3000.0,
+    "vuln_type": "Business Logic Errors",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Weblate",
+    "title": "Argument Injection in /manage/ssh/ via host parameter leads to sensitive file disclosure on Weblate",
+    "url": "https://hackerone.com/reports/3518571",
+    "upvotes": 33,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Shopify",
+    "title": "mruby-engine: UAF in MRubyEngine#initialize enables local RCE",
+    "url": "https://hackerone.com/reports/3679660",
+    "upvotes": 35,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Node.js",
+    "title": "Incomplete fix for CVE-2026-21637: loadSNI() in _tls_wrap.js lacks try/catch leading to Remote DoS",
+    "url": "https://hackerone.com/reports/3556769",
+    "upvotes": 59,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Rocket.Chat",
+    "title": "RBAC bypass on App log endpoints via `permissionRequired` typo — any authenticated user reads admin-only Enterprise App logs",
+    "url": "https://hackerone.com/reports/3589551",
+    "upvotes": 39,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Rocket.Chat",
+    "title": "Complete authentication bypass to admin permissions",
+    "url": "https://hackerone.com/reports/3564655",
+    "upvotes": 97,
+    "bounty": 0.0,
+    "vuln_type": "SQL Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Nextcloud",
+    "title": "SVG filter primitives bypass remote image blocking, enabling email tracking without consent.",
+    "url": "https://hackerone.com/reports/3486747",
+    "upvotes": 53,
+    "bounty": 0.0,
+    "vuln_type": "Privacy Violation",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Nextcloud",
+    "title": "position: fixed !important bypasses CSS sanitizer's fixed-position mitigation, enabling full-viewport phishing overlays.",
+    "url": "https://hackerone.com/reports/3590586",
+    "upvotes": 44,
+    "bounty": 0.0,
+    "vuln_type": "Resource Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Nextcloud",
+    "title": "Unquoted body background attribute enables CSS injection that bypasses remote image blocking",
+    "url": "https://hackerone.com/reports/3590583",
+    "upvotes": 34,
+    "bounty": 0.0,
+    "vuln_type": "Resource Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Nextcloud",
+    "title": "SMIL values and by attributes bypass remote image blocking via unvalidated resource-loading animations, enabling email tracking without consent",
+    "url": "https://hackerone.com/reports/3590576",
+    "upvotes": 26,
+    "bounty": 0.0,
+    "vuln_type": "Remote File Inclusion",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "libcurl omits IPv6 zoneid from host identity and leaks credentials/cookies across scoped link-local realms",
+    "url": "https://hackerone.com/reports/3680680",
+    "upvotes": 29,
+    "bounty": 0.0,
+    "vuln_type": "Information Disclosure",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Digest Auth State Leak on Cross-Origin Redirect via Netrc - Username and Password Hash Sent to Wrong Host",
+    "url": "https://hackerone.com/reports/3680038",
+    "upvotes": 17,
+    "bounty": 0.0,
+    "vuln_type": "Insufficiently Protected Credentials",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Nextcloud",
+    "title": "Stored XSS in attachment-display exploitable through SameSite",
+    "url": "https://hackerone.com/reports/3594137",
+    "upvotes": 38,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Stored",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "libcurl reuses a learned RTSP Session header across different hosts on the same easy handle, enabling cross-host session leak and replay",
+    "url": "https://hackerone.com/reports/3680234",
+    "upvotes": 13,
+    "bounty": 0.0,
+    "vuln_type": "Exposure of Data Element to Wrong Session",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Ruby on Rails",
+    "title": "Rails::HTML::Sanitizer.allowed_uri? returns true for entity-encoded control-character-split javascript: URLs",
+    "url": "https://hackerone.com/reports/3601655",
+    "upvotes": 22,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "libcurl stale CURLOPT_AUTOREFERER leaks a previous request URL to a different origin on a reused easy handle",
+    "url": "https://hackerone.com/reports/3673277",
+    "upvotes": 22,
+    "bounty": 0.0,
+    "vuln_type": "Information Exposure Through Sent Data",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "HackerOne",
+    "title": "Residual Malicious Payloads on HackerOne after Vulnerability Fixes",
+    "url": "https://hackerone.com/reports/3168691",
+    "upvotes": 67,
+    "bounty": 0.0,
+    "vuln_type": "Improper Input Validation",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "HackerOne",
+    "title": "DOS via Mutation Aliasing in GraphQL Account Recovery Phone Number Verification API",
+    "url": "https://hackerone.com/reports/3287208",
+    "upvotes": 172,
+    "bounty": 12500.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "lib/http2.c: SSL connections accept non-HTTP push schemes (incomplete fix for 2e8c922a)",
+    "url": "https://hackerone.com/reports/3674275",
+    "upvotes": 30,
+    "bounty": 0.0,
+    "vuln_type": "Authentication Bypass by Primary Weakness",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "arkadiyt-projects",
+    "title": "Authorization header leak in ssrf_filter via cross-host redirect leads to credential theft and unauthorized access",
+    "url": "https://hackerone.com/reports/3642600",
+    "upvotes": 40,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "AWS VDP",
+    "title": "SQL Injection Detection Bypass in AWS WAF Managed Rules (AWSManagedRulesSQLiRuleSet)",
+    "url": "https://hackerone.com/reports/3591725",
+    "upvotes": 38,
+    "bounty": 0.0,
+    "vuln_type": "SQL Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Basecamp",
+    "title": "DOM XSS in `fizzy.do` import filename preview enables one-click victim account takeover",
+    "url": "https://hackerone.com/reports/3608199",
+    "upvotes": 75,
+    "bounty": 500.0,
+    "vuln_type": "Cross-site Scripting (XSS) - DOM",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Basecamp",
+    "title": "Improper Access Control in `fizzy.do` import flow allows cross-tenant ActionText reference resolution and data disclosure",
+    "url": "https://hackerone.com/reports/3543475",
+    "upvotes": 50,
+    "bounty": 218.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Nextcloud",
+    "title": "BOLA/IDOR in Out-of-Office API allows any authenticated user to read other users' absence data",
+    "url": "https://hackerone.com/reports/3382343",
+    "upvotes": 36,
+    "bounty": 0.0,
+    "vuln_type": "Insecure Direct Object Reference (IDOR)",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Cloudflare Public Bug Bounty",
+    "title": "[Variation of #3321406] YetAnother 1-Click Chaining of Self-XSS, Cookie Tossing and AntiCSRF Token Prediction leads to auto approval in AccessTempAuth",
+    "url": "https://hackerone.com/reports/3423950",
+    "upvotes": 61,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Stored",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Cloudflare Public Bug Bounty",
+    "title": "[Variation of #1554049] 1-Click Chaining of Self-XSS, Cookie Tossing and AntiCSRF Token Prediction leads to auto approval in Access Temp Auth",
+    "url": "https://hackerone.com/reports/3321406",
+    "upvotes": 39,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Brave Software",
+    "title": "Brave Shields Domain Reordering Leads to Origin Confusion",
+    "url": "https://hackerone.com/reports/3665151",
+    "upvotes": 51,
+    "bounty": 0.0,
+    "vuln_type": "Violation of Secure Design Principles",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Nextcloud",
+    "title": "Credential Disclosure via Unvalidated directDownloadUrl (Missing DontAddCredentialsAttribute)",
+    "url": "https://hackerone.com/reports/3400143",
+    "upvotes": 37,
+    "bounty": 250.0,
+    "vuln_type": "Insufficiently Protected Credentials",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Argument Injection via curl Short-Flag Grouping",
+    "url": "https://hackerone.com/reports/3669305",
+    "upvotes": 23,
+    "bounty": 0.0,
+    "vuln_type": "Command Injection - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Integer Overflow/Signedness Mismatch in Printf Precision for HTTP/2 Trailer Headers",
+    "url": "https://hackerone.com/reports/3665363",
+    "upvotes": 15,
+    "bounty": 0.0,
+    "vuln_type": "Integer Overflow",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "AWS VDP",
+    "title": "Encryption context keys and values logged at INFO level",
+    "url": "https://hackerone.com/reports/3620760",
+    "upvotes": 19,
+    "bounty": 0.0,
+    "vuln_type": "Insertion of Sensitive Information into Log File",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Rocket.Chat",
+    "title": "Open Redirect in Rocket.Chat",
+    "url": "https://hackerone.com/reports/3418031",
+    "upvotes": 32,
+    "bounty": 0.0,
+    "vuln_type": "Open Redirect",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Mozilla",
+    "title": "[Vertical Privilege Escalation] User can Unapproved any Approved Translation at [/translations/unapprove/]",
+    "url": "https://hackerone.com/reports/3020021",
+    "upvotes": 43,
+    "bounty": 0.0,
+    "vuln_type": "Privilege Escalation",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Mozilla",
+    "title": "User Can Delete Other Users' Personal Access Tokens at /delete-token/{token_id}/ on Mozilla Pontoon",
+    "url": "https://hackerone.com/reports/3325582",
+    "upvotes": 38,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "RubyGems",
+    "title": "Memory leak in gem decode logic can allow attacker to take down Rubygems.org application",
+    "url": "https://hackerone.com/reports/3079931",
+    "upvotes": 32,
+    "bounty": 0.0,
+    "vuln_type": "Uncontrolled Resource Consumption",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "libcurl: Integer truncation in curl_easy_ssls_import() causes TLS sessions to never expire",
+    "url": "https://hackerone.com/reports/3658049",
+    "upvotes": 23,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "AWS VDP",
+    "title": "Health check errors silently dropped when channel buffer full",
+    "url": "https://hackerone.com/reports/3620761",
+    "upvotes": 22,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Nextcloud",
+    "title": "IDOR on ██████ via direct photo URL leads to unauthorized access to deleted and other users' photos",
+    "url": "https://hackerone.com/reports/3518758",
+    "upvotes": 34,
+    "bounty": 0.0,
+    "vuln_type": "Insecure Direct Object Reference (IDOR)",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "no_proxy IDN mismatch: Unicode hostnames bypass proxy exclusion list",
+    "url": "https://hackerone.com/reports/3650443",
+    "upvotes": 15,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "FTP entrypath accepts 0xFF (Telnet IAC) through incomplete ISCNTRL filter, sent on wire via CWD on connection reuse",
+    "url": "https://hackerone.com/reports/3650473",
+    "upvotes": 10,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Improper enforcement of CURLOPT_SOCKS5_AUTH due to missing reuse key validation in libcurl",
+    "url": "https://hackerone.com/reports/3650435",
+    "upvotes": 15,
+    "bounty": 0.0,
+    "vuln_type": "Improper Authorization",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Monero",
+    "title": "Reported Denial of Service",
+    "url": "https://hackerone.com/reports/3241102",
+    "upvotes": 23,
+    "bounty": 0.0,
+    "vuln_type": "Uncontrolled Resource Consumption",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Monero",
+    "title": "Reported RPC Overflow",
+    "url": "https://hackerone.com/reports/3240792",
+    "upvotes": 25,
+    "bounty": 0.0,
+    "vuln_type": "Integer Overflow",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "# SCURLOPT_SSH_KNOWNHOSTS and host fingerprint pins are silently bypassed when an SSH connection is reused from the connection pool",
+    "url": "https://hackerone.com/reports/3645415",
+    "upvotes": 9,
+    "bounty": 0.0,
+    "vuln_type": "Exposed Dangerous Method or Function",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "SMTP Command Injection via CRLF in libcurl MAIL_FROM / MAIL_RCPT (lib/smtp.c)",
+    "url": "https://hackerone.com/reports/3651975",
+    "upvotes": 5,
+    "bounty": 0.0,
+    "vuln_type": "CRLF Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "ignoring 'options' when doing connection reuse",
+    "url": "https://hackerone.com/reports/3646914",
+    "upvotes": 9,
+    "bounty": 0.0,
+    "vuln_type": "Incorrect Comparison",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Data race in Curl_dnscache_add_negative() corrupts shared DNS cache — heap corruption and double-free when using CURLOPT_SHARE with CURL_LOCK_DATA_DNS",
+    "url": "https://hackerone.com/reports/3645361",
+    "upvotes": 23,
+    "bounty": 0.0,
+    "vuln_type": "Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Internal application wrapper or script using curl",
+    "url": "https://hackerone.com/reports/3648199",
+    "upvotes": 29,
+    "bounty": 0.0,
+    "vuln_type": "Code Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Missing server identity policy enforcement in SSH connection reuse allows host key verification bypass via pool poisoning",
+    "url": "https://hackerone.com/reports/3640932",
+    "upvotes": 16,
+    "bounty": 0.0,
+    "vuln_type": "Authentication Bypass by Primary Weakness",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Cookie attribute TAB injection regression in Set-Cookie parsing",
+    "url": "https://hackerone.com/reports/3641893",
+    "upvotes": 18,
+    "bounty": 0.0,
+    "vuln_type": "Improper Input Validation",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Bypassing Strict SSH Server Verification via Connection Pool Reuse in libcurl",
+    "url": "https://hackerone.com/reports/3639277",
+    "upvotes": 37,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Use-After-Free race condition in url_move_hostname() via shared connection pool",
+    "url": "https://hackerone.com/reports/3638715",
+    "upvotes": 23,
+    "bounty": 0.0,
+    "vuln_type": "Use After Free",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Nextcloud",
+    "title": "Unauthenticated SSRF via Public Reference API -Sharing Token Bypass",
+    "url": "https://hackerone.com/reports/3479692",
+    "upvotes": 40,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "HackerOne Vulnerability Report: libcurl SSL/TLS Identity Leakage via Insecure Connection Reuse",
+    "url": "https://hackerone.com/reports/3636244",
+    "upvotes": 26,
+    "bounty": 0.0,
+    "vuln_type": "Authentication Bypass by Primary Weakness",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "HTTP/2 PUSH_PROMISE header loss on OOM bypasses scheme validation (regression of 2e8c922a89)",
+    "url": "https://hackerone.com/reports/3636044",
+    "upvotes": 15,
+    "bounty": 0.0,
+    "vuln_type": "Improper Handling of Insufficient Permissions or Privileges",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Unbounded GZIP Decompression Leading to Event-Loop Starvation",
+    "url": "https://hackerone.com/reports/3632427",
+    "upvotes": 17,
+    "bounty": 0.0,
+    "vuln_type": "Improper Handling of Highly Compressed Data (Data Amplification)",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "arkadiyt-projects",
+    "title": "SSRF Filter Bypass via Unblocked NAT64 Local-Use IPv6 Prefix (64:ff9b:1::/48)",
+    "url": "https://hackerone.com/reports/3634400",
+    "upvotes": 63,
+    "bounty": 0.0,
+    "vuln_type": "Server-Side Request Forgery (SSRF)",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "arkadiyt-projects",
+    "title": "Path Traversal in writeFile via Unsafe Prefix Containment Check Allows Out-of-Directory Writes",
+    "url": "https://hackerone.com/reports/3634571",
+    "upvotes": 21,
+    "bounty": 0.0,
+    "vuln_type": "Path Traversal",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Node.js",
+    "title": "HashDoS in V8",
+    "url": "https://hackerone.com/reports/3511792",
+    "upvotes": 19,
+    "bounty": 0.0,
+    "vuln_type": "Cryptographic Issues - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Node.js",
+    "title": "Permission Model Bypass in realpathSync.native Allows File Existence Disclosure",
+    "url": "https://hackerone.com/reports/3480841",
+    "upvotes": 15,
+    "bounty": 0.0,
+    "vuln_type": "Information Disclosure",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Node.js",
+    "title": "Timing side-channel in HMAC verification via memcmp() in crypto_hmac.cc leads to potential MAC forgery",
+    "url": "https://hackerone.com/reports/3533945",
+    "upvotes": 16,
+    "bounty": 0.0,
+    "vuln_type": "Cryptographic Issues - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Node.js",
+    "title": "Node.js Permission Model bypass: UDS server bind/listen works without `--allow-net`",
+    "url": "https://hackerone.com/reports/3559715",
+    "upvotes": 10,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Node.js",
+    "title": "Denial of Service via `__proto__` header name in `req.headersDistinct` (Uncaught `TypeError` crashes Node.js process)",
+    "url": "https://hackerone.com/reports/3560402",
+    "upvotes": 22,
+    "bounty": 0.0,
+    "vuln_type": "Uncontrolled Resource Consumption",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Node.js",
+    "title": "CVE-2024-36137 Patch Bypass - FileHandle.chmod/chown",
+    "url": "https://hackerone.com/reports/3449392",
+    "upvotes": 7,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Node.js",
+    "title": "Memory leak in Node.js HTTP/2 server via WINDOW_UPDATE on stream 0 leads to resource exhaustion",
+    "url": "https://hackerone.com/reports/3531737",
+    "upvotes": 7,
+    "bounty": 0.0,
+    "vuln_type": "Missing Release of Memory after Effective Lifetime",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CRLF Injection in HAProxy PROXY Protocol via CURLOPT_HAPROXY_CLIENT_IP allows IP spoofing and protocol injection",
+    "url": "https://hackerone.com/reports/3633534",
+    "upvotes": 9,
+    "bounty": 0.0,
+    "vuln_type": "CRLF Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "HTTP/2 server push accepts a non-authoritative :scheme=https over cleartext h2c, enabling HTTPS cache-key poisoning",
+    "url": "https://hackerone.com/reports/3630310",
+    "upvotes": 24,
+    "bounty": 0.0,
+    "vuln_type": "Improper Input Validation",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Tucows (VDP)",
+    "title": "Password Strength Policy Bypass via Server-Side Validation Flaw",
+    "url": "https://hackerone.com/reports/3523703",
+    "upvotes": 50,
+    "bounty": 0.0,
+    "vuln_type": "Business Logic Errors",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "passhash",
+    "title": "Potential DoS due to PasswordPoliciesNotMet in errors.go",
+    "url": "https://hackerone.com/reports/2441029",
+    "upvotes": 19,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "passhash",
+    "title": "Missing policies for password in password_policies.go",
+    "url": "https://hackerone.com/reports/2439734",
+    "upvotes": 15,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Node.js",
+    "title": "Assertion error in node_url.cc via malformed URL format leads to Node.js crash",
+    "url": "https://hackerone.com/reports/3546390",
+    "upvotes": 40,
+    "bounty": 0.0,
+    "vuln_type": "Reachable Assertion",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "RubyGems",
+    "title": "Server-side ReDoS via user-controlled regex in OIDC Access Policy",
+    "url": "https://hackerone.com/reports/3542546",
+    "upvotes": 41,
+    "bounty": 0.0,
+    "vuln_type": "Uncontrolled Resource Consumption",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Bearer Token Leaked to Attacker via .netrc Despite CVE-2026-3783 Fix",
+    "url": "https://hackerone.com/reports/3611825",
+    "upvotes": 23,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Security Vulnerability Report: Protocol Injection via Programmatic Options",
+    "url": "https://hackerone.com/reports/3627638",
+    "upvotes": 13,
+    "bounty": 0.0,
+    "vuln_type": "CRLF Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "HTTP/1.1 Response Desynchronization via conflicting CL/TE headers in Proxy CONNECT",
+    "url": "https://hackerone.com/reports/3623064",
+    "upvotes": 30,
+    "bounty": 0.0,
+    "vuln_type": "HTTP Request Smuggling",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Function `do_pubkey()` can have out-of-bound read issue",
+    "url": "https://hackerone.com/reports/3617719",
+    "upvotes": 13,
+    "bounty": 0.0,
+    "vuln_type": "Out-of-bounds Read",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "IBM",
+    "title": "Potential Subdomain Takeover on IBM.com domain.",
+    "url": "https://hackerone.com/reports/3592387",
+    "upvotes": 79,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "LinkedIn",
+    "title": "Access to Deactivated LinkedIn Company Pages via Competitor Analytics API",
+    "url": "https://hackerone.com/reports/3604288",
+    "upvotes": 71,
+    "bounty": 0.0,
+    "vuln_type": "Insecure Direct Object Reference (IDOR)",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Python Cryptographic Authority",
+    "title": "Fail-Open in set_tlsext_servername_callback on pyopenssl via unhandled exceptions leads to security bypass",
+    "url": "https://hackerone.com/reports/3558277",
+    "upvotes": 63,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Mozilla",
+    "title": "[Privilege Escalation] User can Pin|Unpin Any Comment on Any Project or Locale",
+    "url": "https://hackerone.com/reports/3025797",
+    "upvotes": 58,
+    "bounty": 0.0,
+    "vuln_type": "Privilege Escalation",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Exposed .git/config File Leading to Potential Sensitive Information Disclosure",
+    "url": "https://hackerone.com/reports/3612891",
+    "upvotes": 32,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "GitHub",
+    "title": "Add labels to arbitrary issues/prs & compromise github actions label checks",
+    "url": "https://hackerone.com/reports/3527771",
+    "upvotes": 68,
+    "bounty": 0.0,
+    "vuln_type": "Insecure Direct Object Reference (IDOR)",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "GitHub",
+    "title": "PATs without the required scope can leak issues",
+    "url": "https://hackerone.com/reports/3522254",
+    "upvotes": 58,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "HackerOne",
+    "title": "Lack of Validation in Reward Redemption Allows Unlimited Burp Suite License Abuse",
+    "url": "https://hackerone.com/reports/3378540",
+    "upvotes": 117,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "HSTS accepted from HTTP origin behind HTTPS proxy",
+    "url": "https://hackerone.com/reports/3609505",
+    "upvotes": 25,
+    "bounty": 0.0,
+    "vuln_type": "Acceptance of Extraneous Untrusted Data With Trusted Data",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Unescaped username in SASL DIGEST-MD5 response allows injection",
+    "url": "https://hackerone.com/reports/3608522",
+    "upvotes": 26,
+    "bounty": 0.0,
+    "vuln_type": "Improper Neutralization of Escape, Meta, or Control Sequences",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "LinkedIn",
+    "title": "Session Cookie Leakage via Static Header Field in WebViewerFragment",
+    "url": "https://hackerone.com/reports/3475626",
+    "upvotes": 125,
+    "bounty": 0.0,
+    "vuln_type": "Misconfiguration",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Lovable VDP",
+    "title": "Business Logic Bypass Allows Setting “Read Access” Role Without Pro Plan Subscription",
+    "url": "https://hackerone.com/reports/3591764",
+    "upvotes": 73,
+    "bounty": 0.0,
+    "vuln_type": "Business Logic Errors",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "SMB READ_ANDX DataOffset not validated",
+    "url": "https://hackerone.com/reports/3603300",
+    "upvotes": 30,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Basecamp",
+    "title": "Unauthenticated access to private files on app.fizzy.do via Active Storage URLs leads to information disclosure",
+    "url": "https://hackerone.com/reports/3467641",
+    "upvotes": 68,
+    "bounty": 100.0,
+    "vuln_type": "Insecure Direct Object Reference (IDOR)",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "MetaMask",
+    "title": "Authorization Bypass in Starknet Snap via enableAuthorize parameter leads to unauthorized transaction signing",
+    "url": "https://hackerone.com/reports/3507241",
+    "upvotes": 84,
+    "bounty": 350.0,
+    "vuln_type": "Business Logic Errors",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "IBM",
+    "title": "SQL Injection vulnerability found on ibm.com endpoint",
+    "url": "https://hackerone.com/reports/3578842",
+    "upvotes": 136,
+    "bounty": 0.0,
+    "vuln_type": "SQL Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Curl_compareheader() fails to match multi-value HTTP headers",
+    "url": "https://hackerone.com/reports/3598444",
+    "upvotes": 28,
+    "bounty": 0.0,
+    "vuln_type": "Expected Behavior Violation",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "urlapi: off-by-one in custom scheme validation skips last character",
+    "url": "https://hackerone.com/reports/3598358",
+    "upvotes": 38,
+    "bounty": 0.0,
+    "vuln_type": "Off-by-one Error",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Lovable VDP",
+    "title": "Bypass of Open Redirect Fix on lovable.dev via /..// Path Traversal in redirect parameter",
+    "url": "https://hackerone.com/reports/3599248",
+    "upvotes": 70,
+    "bounty": 0.0,
+    "vuln_type": "Open Redirect",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "NULL Pointer Dereference (DoS) in libcurl SFTP QUOTE command parsing due to missing return statement",
+    "url": "https://hackerone.com/reports/3597359",
+    "upvotes": 25,
+    "bounty": 0.0,
+    "vuln_type": "NULL Pointer Dereference",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CVE-2026-3805: use after free in SMB connection reuse",
+    "url": "https://hackerone.com/reports/3591944",
+    "upvotes": 33,
+    "bounty": 0.0,
+    "vuln_type": "Use After Free",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CVE-2026-3784: wrong proxy connection reuse with credentials",
+    "url": "https://hackerone.com/reports/3584903",
+    "upvotes": 30,
+    "bounty": 0.0,
+    "vuln_type": "Incorrect Authorization",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CVE-2026-3783: token leak with redirect and netrc",
+    "url": "https://hackerone.com/reports/3583983",
+    "upvotes": 25,
+    "bounty": 0.0,
+    "vuln_type": "Information Exposure Through Sent Data",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Connection Reuse Ignores OAuth Bearer Token Mismatch",
+    "url": "https://hackerone.com/reports/3595753",
+    "upvotes": 17,
+    "bounty": 0.0,
+    "vuln_type": "Improper Authentication - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CURLOPT_UNRESTRICTED_AUTH Dangerous Default Documentation Gap",
+    "url": "https://hackerone.com/reports/3595764",
+    "upvotes": 18,
+    "bounty": 0.0,
+    "vuln_type": "Information Disclosure",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "AWS VDP",
+    "title": "Arbitrary Code Execution via Scanner Bypass in **aws-diagram-mcp-server** `exec()` Namespace",
+    "url": "https://hackerone.com/reports/3557138",
+    "upvotes": 43,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Lovable VDP",
+    "title": "Users can change project visibility which requires high subscription by just changing request body",
+    "url": "https://hackerone.com/reports/3370430",
+    "upvotes": 68,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "LM Challenge-Response Hash Always Sent in SMB Authentication",
+    "url": "https://hackerone.com/reports/3584491",
+    "upvotes": 18,
+    "bounty": 0.0,
+    "vuln_type": "Reversible One-Way Hash",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "In curl's SASL OAUTHBEARER authentication, including the SOH character (0x01) in the username corrupts the message structure.",
+    "url": "https://hackerone.com/reports/3584865",
+    "upvotes": 17,
+    "bounty": 0.0,
+    "vuln_type": "Improper Neutralization of Value Delimiters",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Kubernetes",
+    "title": "Injection in path parameter of Ingress-nginx",
+    "url": "https://hackerone.com/reports/2701701",
+    "upvotes": 87,
+    "bounty": 0.0,
+    "vuln_type": "Code Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "LinkedIn",
+    "title": "IDOR to make someone attend or leave an event",
+    "url": "https://hackerone.com/reports/1734639",
+    "upvotes": 82,
+    "bounty": 0.0,
+    "vuln_type": "Insecure Direct Object Reference (IDOR)",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "LinkedIn",
+    "title": "Blocking a company page admin prevents him from delete paid media admin or edit his roles",
+    "url": "https://hackerone.com/reports/2339192",
+    "upvotes": 54,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Lovable VDP",
+    "title": "Open Redirect on lovable.dev via redirect parameter leads to phishing attacks",
+    "url": "https://hackerone.com/reports/3581815",
+    "upvotes": 44,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Fastify",
+    "title": "DoS via Unbounded Memory Allocation in sendWebStream on Fastify v5.7.0+ leads to OOM crash when backpressure is ignored",
+    "url": "https://hackerone.com/reports/3524779",
+    "upvotes": 35,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "GitHub",
+    "title": "Missing Access Control in MigrationFile allows attacker to upload files to any Migration",
+    "url": "https://hackerone.com/reports/3506183",
+    "upvotes": 86,
+    "bounty": 0.0,
+    "vuln_type": "Insecure Direct Object Reference (IDOR)",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "SSTI leads to Command injection",
+    "url": "https://hackerone.com/reports/3584149",
+    "upvotes": 24,
+    "bounty": 0.0,
+    "vuln_type": "Command Injection - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Use after free in hyperfifo example",
+    "url": "https://hackerone.com/reports/3580247",
+    "upvotes": 19,
+    "bounty": 0.0,
+    "vuln_type": "Use After Free",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Omise",
+    "title": "2FA requirement bypass when inviting team members",
+    "url": "https://hackerone.com/reports/3356149",
+    "upvotes": 101,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "AWS VDP",
+    "title": "Password Reuse Vulnerability on AWS Sign-in Page via Password Reset Flow leads to Security Policy Violation",
+    "url": "https://hackerone.com/reports/3514122",
+    "upvotes": 55,
+    "bounty": 0.0,
+    "vuln_type": "Weak Password Requirements",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Integer Overflow in curl_multi_get_handles() Leading to Heap Buffer Overflow",
+    "url": "https://hackerone.com/reports/3575245",
+    "upvotes": 36,
+    "bounty": 0.0,
+    "vuln_type": "Classic Buffer Overflow",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "RTSP RTP Interleaved Parser Assertion Failure (Zero-Length RTP Payload)",
+    "url": "https://hackerone.com/reports/3575250",
+    "upvotes": 28,
+    "bounty": 0.0,
+    "vuln_type": "Improper Check or Handling of Exceptional Conditions",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Cloudflare Public Bug Bounty",
+    "title": "AI Playground XSS to steal user-chat messages and access to connected MCP Server",
+    "url": "https://hackerone.com/reports/3424998",
+    "upvotes": 59,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Able to bypass HSTS using trailing dot",
+    "url": "https://hackerone.com/reports/3574928",
+    "upvotes": 22,
+    "bounty": 0.0,
+    "vuln_type": "Missing Required Cryptographic Step",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Curl Telnet Handler Buffer Overflow",
+    "url": "https://hackerone.com/reports/3575475",
+    "upvotes": 11,
+    "bounty": 0.0,
+    "vuln_type": "Buffer Underflow",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "PortSwigger Web Security",
+    "title": "HTML Injection in DAST Trial Request Form Confirmation Email – PortSwigger",
+    "url": "https://hackerone.com/reports/3556892",
+    "upvotes": 88,
+    "bounty": 200.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Mars",
+    "title": "Publicly accessible `█████████` endpoint exposing internal user identifiers and email addresses",
+    "url": "https://hackerone.com/reports/3360293",
+    "upvotes": 47,
+    "bounty": 0.0,
+    "vuln_type": "Information Disclosure",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Mars",
+    "title": "CVE-█████-35813 in █████",
+    "url": "https://hackerone.com/reports/2200329",
+    "upvotes": 71,
+    "bounty": 0.0,
+    "vuln_type": "Relative Path Traversal",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Mars",
+    "title": "Sensitive information exposed at [███] via /export_panelists_to_xlsx endpoint",
+    "url": "https://hackerone.com/reports/3376598",
+    "upvotes": 34,
+    "bounty": 0.0,
+    "vuln_type": "Cleartext Storage of Sensitive Information",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Mars",
+    "title": "███████ - Publicly Accessible public_html Directory Exposing WordPress Configuration",
+    "url": "https://hackerone.com/reports/3066548",
+    "upvotes": 28,
+    "bounty": 0.0,
+    "vuln_type": "Information Disclosure",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Mars",
+    "title": "SQLi At `███████` via `theme_name`",
+    "url": "https://hackerone.com/reports/3293803",
+    "upvotes": 60,
+    "bounty": 0.0,
+    "vuln_type": "SQL Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Mars",
+    "title": "SQLi at █████ parameter",
+    "url": "https://hackerone.com/reports/3277276",
+    "upvotes": 40,
+    "bounty": 0.0,
+    "vuln_type": "SQL Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Mars",
+    "title": "No Rate Limiting on Password Attempts After Insecure Registration Flow cause ATO",
+    "url": "https://hackerone.com/reports/3174778",
+    "upvotes": 28,
+    "bounty": 0.0,
+    "vuln_type": "Improper Restriction of Authentication Attempts",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Node.js",
+    "title": "Unbounded decompression chain in HTTP responses on Node.js Fetch API via Content-Encoding leads to resource exhaustion",
+    "url": "https://hackerone.com/reports/3456148",
+    "upvotes": 25,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Nintendo",
+    "title": "Splatoon 3 Anticheat Seed Randomization Weakness",
+    "url": "https://hackerone.com/reports/3042475",
+    "upvotes": 54,
+    "bounty": 0.0,
+    "vuln_type": "Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG)",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Nintendo",
+    "title": "ASLR leak in Mario Kart World through LAN mode",
+    "url": "https://hackerone.com/reports/3463719",
+    "upvotes": 74,
+    "bounty": 0.0,
+    "vuln_type": "Information Disclosure",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Automattic",
+    "title": "XSS Vulnerability on Pressable/Atomic Hosting Platform via unescaped admin notices leads to code execution",
+    "url": "https://hackerone.com/reports/3447021",
+    "upvotes": 76,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Sony",
+    "title": "Improper State Validation on Sony WH-CH520 via BLE Command Service leads to unauthorized Bluetooth pairing and audio hijacking",
+    "url": "https://hackerone.com/reports/3514490",
+    "upvotes": 67,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Node.js",
+    "title": "TLS PSK/ALPN Callback Exceptions Bypass Error Handlers, Causing DoS and FD Leak",
+    "url": "https://hackerone.com/reports/3473882",
+    "upvotes": 81,
+    "bounty": 0.0,
+    "vuln_type": "Uncontrolled Resource Consumption",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Node.js",
+    "title": "Node.js permission model bypass via unchecked Unix Domain Socket connections (UDS)",
+    "url": "https://hackerone.com/reports/3465156",
+    "upvotes": 51,
+    "bounty": 0.0,
+    "vuln_type": "Server-Side Request Forgery (SSRF)",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Node.js",
+    "title": "Uncatchable \"Maximum call stack size exceeded\" error on Node.js via async_hooks leads to process crashes bypassing error handlers",
+    "url": "https://hackerone.com/reports/3456295",
+    "upvotes": 35,
+    "bounty": 0.0,
+    "vuln_type": "Improper Handling of Exceptional Conditions",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Node.js",
+    "title": "Memory leak that enables remote Denial of Service against applications processing TLS client certificates",
+    "url": "https://hackerone.com/reports/3357723",
+    "upvotes": 33,
+    "bounty": 0.0,
+    "vuln_type": "Uncontrolled Resource Consumption",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Node.js",
+    "title": "Timeout-based race conditions make Uint8Array/Buffer.alloc non-zerofilled",
+    "url": "https://hackerone.com/reports/3405778",
+    "upvotes": 43,
+    "bounty": 0.0,
+    "vuln_type": "Improper Initialization",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Node.js",
+    "title": "FS Permissions Bypass",
+    "url": "https://hackerone.com/reports/3417819",
+    "upvotes": 34,
+    "bounty": 0.0,
+    "vuln_type": "Violation of Secure Design Principles",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Nextcloud",
+    "title": "Mail stored HTML injection in subject text",
+    "url": "https://hackerone.com/reports/3357036",
+    "upvotes": 47,
+    "bounty": 350.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Omise",
+    "title": "Cache Pollution via Unkeyed GET Parameters on www.omise.co",
+    "url": "https://hackerone.com/reports/3183046",
+    "upvotes": 43,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "AWS VDP",
+    "title": "Unlimited Reuse of Coupon Code Allows Free Shipping on All Orders on ██████████",
+    "url": "https://hackerone.com/reports/3426839",
+    "upvotes": 68,
+    "bounty": 0.0,
+    "vuln_type": "Business Logic Errors",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Django",
+    "title": "ASGIRequest header concatenation quadratic CPU DoS on Django via repeated headers leads to worker exhaustion",
+    "url": "https://hackerone.com/reports/3426417",
+    "upvotes": 24,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Nextcloud",
+    "title": "WebAuthn app was updated based on public key",
+    "url": "https://hackerone.com/reports/3360354",
+    "upvotes": 82,
+    "bounty": 750.0,
+    "vuln_type": "Insecure Direct Object Reference (IDOR)",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "MQTT Protocol Packet Injection via Unchecked CONNACK Remaining Length",
+    "url": "https://hackerone.com/reports/3531216",
+    "upvotes": 45,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Django",
+    "title": "User enumeration via timing attack in Django mod_wsgi authentication backend leads to account discovery",
+    "url": "https://hackerone.com/reports/3424977",
+    "upvotes": 62,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "GoCD",
+    "title": "Information Disclosure via Logback Configuration Injection in GoCD Agent",
+    "url": "https://hackerone.com/reports/3509632",
+    "upvotes": 37,
+    "bounty": 0.0,
+    "vuln_type": "Information Disclosure",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "LinkedIn",
+    "title": "Previous commentor on post can still comment even after comment permission is changed to disabled",
+    "url": "https://hackerone.com/reports/3151001",
+    "upvotes": 111,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "LinkedIn",
+    "title": "Improper Access Control - Access to \"Active Hiring\" (Premium  feature) filter results",
+    "url": "https://hackerone.com/reports/3235855",
+    "upvotes": 97,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "ExpressionEngine",
+    "title": "SQL injection in structure plugin",
+    "url": "https://hackerone.com/reports/3249794",
+    "upvotes": 124,
+    "bounty": 0.0,
+    "vuln_type": "SQL Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "wcurl Argument Injection via Unquoted Variable",
+    "url": "https://hackerone.com/reports/3523953",
+    "upvotes": 43,
+    "bounty": 0.0,
+    "vuln_type": "Command Injection - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Integer Underflow in src/var.c",
+    "url": "https://hackerone.com/reports/3523349",
+    "upvotes": 46,
+    "bounty": 0.0,
+    "vuln_type": "Integer Underflow",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Basecamp",
+    "title": "Spam & Clearance checks disabled with existing referenced Message-ID",
+    "url": "https://hackerone.com/reports/2012659",
+    "upvotes": 121,
+    "bounty": 250.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Stripo Inc",
+    "title": "[Critical] Unauthorized Cross-Tenant Data Access in Stripo AI Hub Campaign via Deleted Project.",
+    "url": "https://hackerone.com/reports/3459285",
+    "upvotes": 138,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Cosmos",
+    "title": "Memory Exhaustion in CometBFT v1.0.1 via malicious ProposalMessage leads to network-wide denial of service",
+    "url": "https://hackerone.com/reports/3510161",
+    "upvotes": 47,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Cross‑origin cookies leak and injection risk when using a custom Host header",
+    "url": "https://hackerone.com/reports/3516878",
+    "upvotes": 30,
+    "bounty": 0.0,
+    "vuln_type": "Insufficiently Protected Credentials",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "SSL options ISSUERCERT, EC_CURVES and CRLFILE silently ignored by non-OpenSSL backends",
+    "url": "https://hackerone.com/reports/3516974",
+    "upvotes": 31,
+    "bounty": 0.0,
+    "vuln_type": "Missing Required Cryptographic Step",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "pixiv",
+    "title": "Internal logs/info leaked via endpoint {https://203.137.128.240/server-status}",
+    "url": "https://hackerone.com/reports/2473173",
+    "upvotes": 144,
+    "bounty": 0.0,
+    "vuln_type": "Information Disclosure",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Cookie Replacement Use-After-Free Vulnerability",
+    "url": "https://hackerone.com/reports/3516202",
+    "upvotes": 21,
+    "bounty": 0.0,
+    "vuln_type": "Use After Free",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Cookie Max-Age Integer Overflow Vulnerability",
+    "url": "https://hackerone.com/reports/3516186",
+    "upvotes": 28,
+    "bounty": 0.0,
+    "vuln_type": "Integer Overflow",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "pixiv",
+    "title": "Disclose Hidden Comments on Media Section of hub.vroid.com",
+    "url": "https://hackerone.com/reports/2541962",
+    "upvotes": 139,
+    "bounty": 500.0,
+    "vuln_type": "Insecure Direct Object Reference (IDOR)",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "pixiv",
+    "title": "clickjacing can lead to account takeover",
+    "url": "https://hackerone.com/reports/2119892",
+    "upvotes": 68,
+    "bounty": 200.0,
+    "vuln_type": "UI Redressing (Clickjacking)",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "libcurl: Improper Authentication State Management on Cross-Protocol Redirects",
+    "url": "https://hackerone.com/reports/3514263",
+    "upvotes": 17,
+    "bounty": 0.0,
+    "vuln_type": "Insufficiently Protected Credentials",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Nextcloud",
+    "title": "Easy way to create a new Deck board without permission",
+    "url": "https://hackerone.com/reports/2388183",
+    "upvotes": 56,
+    "bounty": 100.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Nextcloud",
+    "title": "Can download files on Android app without permission",
+    "url": "https://hackerone.com/reports/2380133",
+    "upvotes": 46,
+    "bounty": 250.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "AWS VDP",
+    "title": "Command Injection on Amazon Q Developer CLI via malicious .amazonq/mcp.json leads to arbitrary code execution",
+    "url": "https://hackerone.com/reports/3427370",
+    "upvotes": 19,
+    "bounty": 0.0,
+    "vuln_type": "Command Injection - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Node.js",
+    "title": "fs.futimes() Bypasses Read-Only Permission Model",
+    "url": "https://hackerone.com/reports/3390084",
+    "upvotes": 34,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "IMAP Protocol Desynchronization and Response Smuggling via Naive Literal Parsing",
+    "url": "https://hackerone.com/reports/3509396",
+    "upvotes": 14,
+    "bounty": 0.0,
+    "vuln_type": "Improper Input Validation",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Nextcloud",
+    "title": "Roundcube Webmail Style Sanitizer can be bypassed using CSS Character Escapes",
+    "url": "https://hackerone.com/reports/3443563",
+    "upvotes": 46,
+    "bounty": 0.0,
+    "vuln_type": "Information Disclosure",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Revive Adserver",
+    "title": "[revive-adserver] Reflected XSS in Banner Delivery Options via cap parameter",
+    "url": "https://hackerone.com/reports/3473696",
+    "upvotes": 35,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Revive Adserver",
+    "title": "Reflected XSS in banner-acl.php and channel-acl.php via executionorder",
+    "url": "https://hackerone.com/reports/3470970",
+    "upvotes": 37,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Revive Adserver",
+    "title": "Reflected XSS in afr.php",
+    "url": "https://hackerone.com/reports/3468169",
+    "upvotes": 35,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Revive Adserver",
+    "title": "Broken Access Control allows advertiser accounts to delete trackers they do not own",
+    "url": "https://hackerone.com/reports/3445710",
+    "upvotes": 46,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Revive Adserver",
+    "title": "INI Format string injection in Revive Adserver 6.0.4 settings",
+    "url": "https://hackerone.com/reports/3445332",
+    "upvotes": 19,
+    "bounty": 0.0,
+    "vuln_type": "Use of Externally-Controlled Format String",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Integer-underflow leads to heap over-read in TFTP implementation",
+    "url": "https://hackerone.com/reports/3508321",
+    "upvotes": 7,
+    "bounty": 0.0,
+    "vuln_type": "Buffer Over-read",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Digest Authentication Header Injection",
+    "url": "https://hackerone.com/reports/3508799",
+    "upvotes": 8,
+    "bounty": 0.0,
+    "vuln_type": "HTTP Response Splitting",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Directory listing vulnerability is disclosing names and emails, widespread (thousands of records, publicly accessible without auth)",
+    "url": "https://hackerone.com/reports/3509437",
+    "upvotes": 10,
+    "bounty": 0.0,
+    "vuln_type": "Information Exposure Through Directory Listing",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Gopher Protocol Command Injection (SSRF Smuggling)",
+    "url": "https://hackerone.com/reports/3508785",
+    "upvotes": 8,
+    "bounty": 0.0,
+    "vuln_type": "Server-Side Request Forgery (SSRF)",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Use-After-Free in curl_easy_nextheader when reusing header handle across requests",
+    "url": "https://hackerone.com/reports/3508701",
+    "upvotes": 8,
+    "bounty": 0.0,
+    "vuln_type": "Use After Free",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "MQTT: unsigned integer underflow bypasses MAX_MQTT_MESSAGE_SIZE check",
+    "url": "https://hackerone.com/reports/3508854",
+    "upvotes": 4,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "integer Overflow in MQTT Protocol Handling Allows Bypassing Message Size Limit",
+    "url": "https://hackerone.com/reports/3508500",
+    "upvotes": 5,
+    "bounty": 0.0,
+    "vuln_type": "Integer Overflow",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Information Disclosure in API Endpoint /users",
+    "url": "https://hackerone.com/reports/3027405",
+    "upvotes": 28,
+    "bounty": 0.0,
+    "vuln_type": "Information Disclosure",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Publicly Accessible CDN Endpoint Exposing XML Metadata (including ETag)",
+    "url": "https://hackerone.com/reports/3346375",
+    "upvotes": 14,
+    "bounty": 0.0,
+    "vuln_type": "Information Disclosure",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Create account without auth via response manipulation",
+    "url": "https://hackerone.com/reports/2061982",
+    "upvotes": 40,
+    "bounty": 0.0,
+    "vuln_type": "Business Logic Errors",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Information Disclosure via Publicly Accessible Debug Log",
+    "url": "https://hackerone.com/reports/3318295",
+    "upvotes": 14,
+    "bounty": 0.0,
+    "vuln_type": "Information Exposure Through Debug Information",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Debug Info disclose",
+    "url": "https://hackerone.com/reports/3066992",
+    "upvotes": 9,
+    "bounty": 0.0,
+    "vuln_type": "Information Exposure Through Debug Information",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Reflected XSS Vulnerability in  SSL VPN Endpoint — CVE-2025-0133",
+    "url": "https://hackerone.com/reports/3238607",
+    "upvotes": 18,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Reflected XSS via user Parameter in /ssl-vpn/getconfig.esp",
+    "url": "https://hackerone.com/reports/3205104",
+    "upvotes": 7,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Reflected XSS via user Parameter on getconfig.esp Endpoint",
+    "url": "https://hackerone.com/reports/3204997",
+    "upvotes": 8,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "XSS on ███",
+    "url": "https://hackerone.com/reports/3053220",
+    "upvotes": 10,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Cross-Site Scripting via URL on ████████",
+    "url": "https://hackerone.com/reports/3437836",
+    "upvotes": 11,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Cross-Site Scripting via 'currentImage' parameter",
+    "url": "https://hackerone.com/reports/3136746",
+    "upvotes": 8,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Cross-Site Scripting via 'wikitext' parameter",
+    "url": "https://hackerone.com/reports/3137212",
+    "upvotes": 9,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Cross-Site Scripting (XSS) in ASP.NET via ResolveUrl on ███████",
+    "url": "https://hackerone.com/reports/3166582",
+    "upvotes": 7,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Cross-Site Scripting (XSS) in ASP.NET via ResolveUrl on ███████",
+    "url": "https://hackerone.com/reports/3166581",
+    "upvotes": 7,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Cross-Site Scripting (XSS) in ASP.NET via ResolveUrl on ██████████",
+    "url": "https://hackerone.com/reports/3166587",
+    "upvotes": 6,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Cross-Site Scripting via URL on ███████",
+    "url": "https://hackerone.com/reports/3354494",
+    "upvotes": 7,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Cross-Site Scripting via URL on ███████",
+    "url": "https://hackerone.com/reports/3351408",
+    "upvotes": 8,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Cross-Site Scripting via 'RAISED_FUNDS_DESC' parameter",
+    "url": "https://hackerone.com/reports/3284389",
+    "upvotes": 9,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Cross-Site Scripting via 'autoPlay' parameter",
+    "url": "https://hackerone.com/reports/3136754",
+    "upvotes": 10,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Cross-Site Scripting via 'description_extra' parameter",
+    "url": "https://hackerone.com/reports/3137206",
+    "upvotes": 9,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Reflected XSS in `Telerik.ReportViewer.axd` with F5 BIG-IP ASM Bypass on `████`",
+    "url": "https://hackerone.com/reports/3135626",
+    "upvotes": 4,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Cross-Site Scripting (XSS) in ASP.NET via ResolveUrl on ██████",
+    "url": "https://hackerone.com/reports/3166585",
+    "upvotes": 9,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Cross-Site Scripting (XSS) in ASP.NET via ResolveUrl on ████",
+    "url": "https://hackerone.com/reports/3166579",
+    "upvotes": 8,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Cross-Site Scripting via 'EVENT_DESCRIPTION' parameter",
+    "url": "https://hackerone.com/reports/3284381",
+    "upvotes": 6,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "exposed FOUO documents, including Passport information",
+    "url": "https://hackerone.com/reports/3291053",
+    "upvotes": 6,
+    "bounty": 0.0,
+    "vuln_type": "Information Disclosure",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Cross-Site Scripting via 'return_link_url' parameter",
+    "url": "https://hackerone.com/reports/3137200",
+    "upvotes": 6,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "POST XSS - data[account][id] parameter",
+    "url": "https://hackerone.com/reports/3127147",
+    "upvotes": 6,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "POST XSS -  data[type] parameter",
+    "url": "https://hackerone.com/reports/3127154",
+    "upvotes": 5,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "POST XSS -  fields[account][firstname] parameter",
+    "url": "https://hackerone.com/reports/3127158",
+    "upvotes": 6,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Reflected Cross-Site Scripting (XSS)",
+    "url": "https://hackerone.com/reports/3284534",
+    "upvotes": 5,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Cross-Site Scripting via 'fname' parameter in ███",
+    "url": "https://hackerone.com/reports/3269780",
+    "upvotes": 4,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Sensitive Images & Files Exposed Through Directory Listing",
+    "url": "https://hackerone.com/reports/3011146",
+    "upvotes": 2,
+    "bounty": 0.0,
+    "vuln_type": "Information Exposure Through Directory Listing",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Cross-Site Scripting (XSS) Vulnerability via parameter c0-id + Akamai Firewall Bypass",
+    "url": "https://hackerone.com/reports/2750977",
+    "upvotes": 7,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - DOM",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "POST XSS -  fields[account][lastname] parameter",
+    "url": "https://hackerone.com/reports/3127162",
+    "upvotes": 6,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Reflected XSS via user parameter on getconfig.esp endpoint",
+    "url": "https://hackerone.com/reports/3206013",
+    "upvotes": 3,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Reflected",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Swagger UI Injection via Config URL - `███`",
+    "url": "https://hackerone.com/reports/3124103",
+    "upvotes": 4,
+    "bounty": 0.0,
+    "vuln_type": "Resource Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Exposed Sensitive PDF: Misconfigured Access Controls Leading to Information Disclosure",
+    "url": "https://hackerone.com/reports/3008481",
+    "upvotes": 6,
+    "bounty": 0.0,
+    "vuln_type": "Information Disclosure",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "2FA Bypass via Response Manipulation on Login Page",
+    "url": "https://hackerone.com/reports/2962527",
+    "upvotes": 19,
+    "bounty": 0.0,
+    "vuln_type": "Authentication Bypass",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Error-based blind SQL injection",
+    "url": "https://hackerone.com/reports/3006666",
+    "upvotes": 6,
+    "bounty": 0.0,
+    "vuln_type": "SQL Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Cross-Site Scripting (XSS) Vulnerability via POST Method + Akamai Firewall Bypass",
+    "url": "https://hackerone.com/reports/2750728",
+    "upvotes": 6,
+    "bounty": 0.0,
+    "vuln_type": "Cross-site Scripting (XSS) - DOM",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "ASBS Analytics Dashboard",
+    "url": "https://hackerone.com/reports/2954381",
+    "upvotes": 4,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Improper Authentication Allows Making Requests as Other Users",
+    "url": "https://hackerone.com/reports/2665879",
+    "upvotes": 6,
+    "bounty": 0.0,
+    "vuln_type": "Improper Authentication - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Unauthenticated Users Can Access Other Users’ Bug Report Attachments via Broken Access Control",
+    "url": "https://hackerone.com/reports/3259610",
+    "upvotes": 24,
+    "bounty": 0.0,
+    "vuln_type": "Insecure Direct Object Reference (IDOR)",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "CVE‑2025‑4123 — Grafana Open Redirect → Stored XSS → SSRF (Full Read) at ██████",
+    "url": "https://hackerone.com/reports/3286945",
+    "upvotes": 15,
+    "bounty": 0.0,
+    "vuln_type": "Open Redirect",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "IBM",
+    "title": "Path Traversal vulnerability identified on IBM endpoint.",
+    "url": "https://hackerone.com/reports/3432159",
+    "upvotes": 10,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Account Takeover via Unverified Email Change and Improper Session Handling",
+    "url": "https://hackerone.com/reports/3324823",
+    "upvotes": 14,
+    "bounty": 0.0,
+    "vuln_type": "Violation of Secure Design Principles",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Exposed wp-config.php file in ███ National Guard website",
+    "url": "https://hackerone.com/reports/3328408",
+    "upvotes": 5,
+    "bounty": 0.0,
+    "vuln_type": "Information Disclosure",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Critical PII Data Exposure in ORDER_ERROR_LOG",
+    "url": "https://hackerone.com/reports/3242830",
+    "upvotes": 7,
+    "bounty": 0.0,
+    "vuln_type": "Cleartext Storage of Sensitive Information",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "SQL Injection - entryid parameter in 'formbuilderv2-confirmation.php'",
+    "url": "https://hackerone.com/reports/3127198",
+    "upvotes": 6,
+    "bounty": 0.0,
+    "vuln_type": "SQL Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "IDOR Exposes PII of Tens of Thousands of Users and Supervisors",
+    "url": "https://hackerone.com/reports/2967032",
+    "upvotes": 20,
+    "bounty": 0.0,
+    "vuln_type": "Insecure Direct Object Reference (IDOR)",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Exposed wp-config.php file",
+    "url": "https://hackerone.com/reports/3252302",
+    "upvotes": 5,
+    "bounty": 0.0,
+    "vuln_type": "Information Disclosure",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "SQLi in LASCO CME Query",
+    "url": "https://hackerone.com/reports/186367",
+    "upvotes": 8,
+    "bounty": 0.0,
+    "vuln_type": "SQL Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "[███] .NET Framework ObjRefs Disclosure (CVE-2024-29059)",
+    "url": "https://hackerone.com/reports/2471924",
+    "upvotes": 3,
+    "bounty": 0.0,
+    "vuln_type": "Information Disclosure",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "ASP.NET Application Trace Enabled",
+    "url": "https://hackerone.com/reports/2928785",
+    "upvotes": 4,
+    "bounty": 0.0,
+    "vuln_type": "Information Exposure Through Debug Information",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Exposure of Sensitive Debug File Containing database dump with passwords in plain text",
+    "url": "https://hackerone.com/reports/3019290",
+    "upvotes": 7,
+    "bounty": 0.0,
+    "vuln_type": "Information Disclosure",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "SQL Injection - JSON 'name' parameter",
+    "url": "https://hackerone.com/reports/3257171",
+    "upvotes": 6,
+    "bounty": 0.0,
+    "vuln_type": "SQL Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "XML E██████ternal Entity (XXE) Injection in ███",
+    "url": "https://hackerone.com/reports/2564265",
+    "upvotes": 8,
+    "bounty": 0.0,
+    "vuln_type": "XML External Entities (XXE)",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "SQL Injection in URI Path Leading to Full Database Disclosure on ████████",
+    "url": "https://hackerone.com/reports/3234050",
+    "upvotes": 10,
+    "bounty": 0.0,
+    "vuln_type": "SQL Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "SQL Injection via URL",
+    "url": "https://hackerone.com/reports/3127562",
+    "upvotes": 7,
+    "bounty": 0.0,
+    "vuln_type": "SQL Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "SQL Injection - data[account][id] parameter",
+    "url": "https://hackerone.com/reports/3127152",
+    "upvotes": 6,
+    "bounty": 0.0,
+    "vuln_type": "SQL Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Unauthenticated File Read Adobe ColdFusion",
+    "url": "https://hackerone.com/reports/2870951",
+    "upvotes": 7,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Secret Access Key of AWS Firehose Disclosure",
+    "url": "https://hackerone.com/reports/2914739",
+    "upvotes": 4,
+    "bounty": 0.0,
+    "vuln_type": "Information Disclosure",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Exposed Extremely Sensitive Information in Public ZIP File",
+    "url": "https://hackerone.com/reports/2857082",
+    "upvotes": 7,
+    "bounty": 0.0,
+    "vuln_type": "Insecure Storage of Sensitive Information",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "Air Force candidate PII + recruitment chat logs accessible via BAC/IDOR on █████████ (very large/significant exposure)",
+    "url": "https://hackerone.com/reports/2968391",
+    "upvotes": 15,
+    "bounty": 0.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "ASBS viewing other soldiers PII/Board/Board Voters/ETC",
+    "url": "https://hackerone.com/reports/2954320",
+    "upvotes": 6,
+    "bounty": 0.0,
+    "vuln_type": "Information Disclosure",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "[Critical Data Breach] Exposure of PII Data Leak via API Response",
+    "url": "https://hackerone.com/reports/3078508",
+    "upvotes": 8,
+    "bounty": 0.0,
+    "vuln_type": "Cleartext Storage of Sensitive Information",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "DNN - Unrestricted Arbitrary File Upload #████████",
+    "url": "https://hackerone.com/reports/3414079",
+    "upvotes": 10,
+    "bounty": 0.0,
+    "vuln_type": "File Content Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "U.S. Dept Of Defense",
+    "title": "GlobalProtect - OS Command Injection #█████████",
+    "url": "https://hackerone.com/reports/2468496",
+    "upvotes": 13,
+    "bounty": 0.0,
+    "vuln_type": "OS Command Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Heap Out-of-Bounds Read in lib/http2.c via Malformed PUSH_PROMISE Headers",
+    "url": "https://hackerone.com/reports/3506159",
+    "upvotes": 5,
+    "bounty": 0.0,
+    "vuln_type": "Out-of-bounds Read",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CRLF Injection in HTTP header values allows arbitrary header injection",
+    "url": "https://hackerone.com/reports/3505557",
+    "upvotes": 5,
+    "bounty": 0.0,
+    "vuln_type": "CRLF Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "State Isolation Failure in Multiplexed Connections (Shared Auth Context)",
+    "url": "https://hackerone.com/reports/3487952",
+    "upvotes": 8,
+    "bounty": 0.0,
+    "vuln_type": "Exposure of Data Element to Wrong Session",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Stack Buffer Overflow in mprintf.c formatting function (fallback path)",
+    "url": "https://hackerone.com/reports/3493602",
+    "upvotes": 8,
+    "bounty": 0.0,
+    "vuln_type": "Classic Buffer Overflow",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "inconsistently Rejection Logic in file:// URLs with Authority",
+    "url": "https://hackerone.com/reports/3494098",
+    "upvotes": 7,
+    "bounty": 0.0,
+    "vuln_type": "Path Traversal",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CVE-2025-14524: bearer token leak on cross-protocol redirect",
+    "url": "https://hackerone.com/reports/3459417",
+    "upvotes": 17,
+    "bounty": 0.0,
+    "vuln_type": "Insufficiently Protected Credentials",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CVE-2025-15079: libssh global knownhost override",
+    "url": "https://hackerone.com/reports/3477116",
+    "upvotes": 18,
+    "bounty": 0.0,
+    "vuln_type": "Improper Validation of Certificate with Host Mismatch",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CVE-2025-15224: libssh key passphrase bypass without agent set",
+    "url": "https://hackerone.com/reports/3480925",
+    "upvotes": 13,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "UPchieve",
+    "title": "Postgres Admin Username and Password in Plain text",
+    "url": "https://hackerone.com/reports/1561448",
+    "upvotes": 12,
+    "bounty": 0.0,
+    "vuln_type": "Insecure Storage of Sensitive Information",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "AWS VDP",
+    "title": "Non-Production API Endpoints for the AI Ops Service Fails to Log to CloudTrail Resulting in Silent Permission Enumeration",
+    "url": "https://hackerone.com/reports/3418966",
+    "upvotes": 18,
+    "bounty": 0.0,
+    "vuln_type": "Insufficient Logging",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "MQTT: Missing upper bound on incoming Remaining Length allows server-controlled long wait",
+    "url": "https://hackerone.com/reports/3488278",
+    "upvotes": 10,
+    "bounty": 0.0,
+    "vuln_type": "Uncontrolled Resource Consumption",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "AWS VDP",
+    "title": "AWS Auto Scaling Service Reporting \"AWS Internal\" for CloudTrail Events Generated from Specific Endpoints",
+    "url": "https://hackerone.com/reports/3419587",
+    "upvotes": 23,
+    "bounty": 0.0,
+    "vuln_type": "Insufficient Logging",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "LY Corporation",
+    "title": "Stored XSS via SVG Upload in chat.line.biz",
+    "url": "https://hackerone.com/reports/3008878",
+    "upvotes": 39,
+    "bounty": 100.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Path Traversal in curl file:// Protocol Handler Allows Unauthorized File Access",
+    "url": "https://hackerone.com/reports/3485930",
+    "upvotes": 18,
+    "bounty": 0.0,
+    "vuln_type": "Path Traversal",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Alt-Svc bypasses credential leak protection (CVE-2018-1000007)",
+    "url": "https://hackerone.com/reports/3485826",
+    "upvotes": 13,
+    "bounty": 0.0,
+    "vuln_type": "Information Exposure Through Sent Data",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Nextcloud",
+    "title": "Predictable proposal participant tokens enable unauthorized access and vote submission",
+    "url": "https://hackerone.com/reports/3385434",
+    "upvotes": 25,
+    "bounty": 100.0,
+    "vuln_type": "Use of Insufficiently Random Values",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Nextcloud",
+    "title": "Users can modify tags on files that do not belong to them",
+    "url": "https://hackerone.com/reports/3040887",
+    "upvotes": 20,
+    "bounty": 150.0,
+    "vuln_type": "Improper Access Control - Generic",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Nextcloud",
+    "title": "Deck app allows to spoof file extensions by using RTLO characters",
+    "url": "https://hackerone.com/reports/2326618",
+    "upvotes": 19,
+    "bounty": 100.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Nextcloud",
+    "title": "Information disclosure via Desktop client when attempting to lock a file inside a end-to-end encrypted directory",
+    "url": "https://hackerone.com/reports/3159877",
+    "upvotes": 8,
+    "bounty": 0.0,
+    "vuln_type": "Information Disclosure",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "Nextcloud",
+    "title": "Stored XSS in contacts app via organisation and title field",
+    "url": "https://hackerone.com/reports/3293290",
+    "upvotes": 15,
+    "bounty": 100.0,
+    "vuln_type": "Cross-site Scripting (XSS) - Stored",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "PROTOCOL-LEVEL: Persistent UDP Amplification and Cache Poisoning via Alt-Svc Logic Flaw",
+    "url": "https://hackerone.com/reports/3483902",
+    "upvotes": 19,
+    "bounty": 0.0,
+    "vuln_type": "Business Logic Errors",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "HTTP Request Smuggling and SSRF via CRLF Injection in Curl_add_custom_headers",
+    "url": "https://hackerone.com/reports/3484431",
+    "upvotes": 9,
+    "bounty": 0.0,
+    "vuln_type": "HTTP Request Smuggling",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CRLF Injection in Gopher Protocol (`lib/gopher.c`)",
+    "url": "https://hackerone.com/reports/3484506",
+    "upvotes": 9,
+    "bounty": 0.0,
+    "vuln_type": "CRLF Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "PortSwigger Web Security",
+    "title": "The role \"CI-driven scan initiator\" provides excessive read access",
+    "url": "https://hackerone.com/reports/2276148",
+    "upvotes": 27,
+    "bounty": 0.0,
+    "vuln_type": "Privilege Escalation",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "MQTT Protocol Violation & Integer Overflow in libcurl",
+    "url": "https://hackerone.com/reports/3484319",
+    "upvotes": 14,
+    "bounty": 0.0,
+    "vuln_type": "Integer Overflow",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "A quiet New Year wish for security researchers",
+    "url": "https://hackerone.com/reports/3483225",
+    "upvotes": 30,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "IBM",
+    "title": "Remote Code Execution identified on IBM endpoint.",
+    "url": "https://hackerone.com/reports/3463045",
+    "upvotes": 60,
+    "bounty": 0.0,
+    "vuln_type": "",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "HTTP/2 and HTTP/3 Header Injection in curl",
+    "url": "https://hackerone.com/reports/3481849",
+    "upvotes": 20,
+    "bounty": 0.0,
+    "vuln_type": "HTTP Response Splitting",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Proxy-Authorization header is leaked to origin server after redirect from proxied to direct connection",
+    "url": "https://hackerone.com/reports/3480713",
+    "upvotes": 18,
+    "bounty": 0.0,
+    "vuln_type": "Information Exposure Through Sent Data",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "SMTP CRLF Injection & Protocol Desynchronization in libcurl",
+    "url": "https://hackerone.com/reports/3481595",
+    "upvotes": 16,
+    "bounty": 0.0,
+    "vuln_type": "CRLF Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Telnet Suboption Buffer Pointer Underflow in lib/telnet.c leads to Out-of-Bounds Read",
+    "url": "https://hackerone.com/reports/3480712",
+    "upvotes": 16,
+    "bounty": 0.0,
+    "vuln_type": "Buffer Under-read",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Cross‑Layer State Confusion in libcurl: Credential & Key‑Material Persistence Across Redirect / Connection Reuse Boundaries",
+    "url": "https://hackerone.com/reports/3480641",
+    "upvotes": 16,
+    "bounty": 0.0,
+    "vuln_type": "Violation of Secure Design Principles",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "WebSocket Logic Error: Control Frame (PING/PONG) Starvation causes Connection Drop (DoS) during large transfers",
+    "url": "https://hackerone.com/reports/3480039",
+    "upvotes": 9,
+    "bounty": 0.0,
+    "vuln_type": "Business Logic Errors",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Heap Buffer Over-read in lib/http2.c (on_header) handling PUSH_PROMISE frames",
+    "url": "https://hackerone.com/reports/3480078",
+    "upvotes": 8,
+    "bounty": 0.0,
+    "vuln_type": "Buffer Over-read",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "CRLF Injection / Protocol Smuggling in libcurl via CURLOPT_USERNAME (IMAP)",
+    "url": "https://hackerone.com/reports/3479984",
+    "upvotes": 5,
+    "bounty": 0.0,
+    "vuln_type": "CRLF Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "HTTP/3 Protocol Smuggling and Header Injection via CRLF in QPACK value conversion",
+    "url": "https://hackerone.com/reports/3479203",
+    "upvotes": 24,
+    "bounty": 0.0,
+    "vuln_type": "CRLF Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Security hardening: missing integer overflow check in curl_load_library()",
+    "url": "https://hackerone.com/reports/3479019",
+    "upvotes": 12,
+    "bounty": 0.0,
+    "vuln_type": "Integer Overflow",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  },
+  {
+    "platform": "hackerone",
+    "program": "curl",
+    "title": "Protocol Smuggling / CRLF Injection via Gopher Protocol allows Arbitrary Command Injection",
+    "url": "https://hackerone.com/reports/3477023",
+    "upvotes": 20,
+    "bounty": 0.0,
+    "vuln_type": "CRLF Injection",
+    "source": "reddelexc/hackerone-reports:data.csv"
+  }
+]

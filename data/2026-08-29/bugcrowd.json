@@ -1,0 +1,16 @@
+[
+  {
+    "platform": "bugcrowd",
+    "program": "YNAB",
+    "title": "Rate Limit Bypass via X-Forwarded-For Header Manipulation on Registration Page",
+    "url": "https://bugcrowd.com/disclosures/cbfab16a-2b3e-4a65-bf64-0e003c7c6ea7/rate-limit-bypass-via-x-forwarded-for-header-manipulation-on-registration-page",
+    "severity": 4,
+    "researcher": "ShahwarShah",
+    "amount": "$150",
+    "target": "staging-app.bany.dev",
+    "created_at": "2024-07-31T15:41:28.018Z",
+    "disclosed_at": "18 Sep 2024",
+    "id": "e2bbc0bd-ea60-4d8d-be89-f3b7d27b56d8",
+    "source": "bugcrowd crowdstream public endpoint"
+  }
+]

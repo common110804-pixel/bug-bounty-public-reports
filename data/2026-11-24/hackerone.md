@@ -1,6 +1,6 @@
 # HackerOne Public Reports Snapshot
 
-Generated: 2026-11-24T01:09:30.130301+00:00
+Generated: 2026-11-24T23:14:13.498298+00:00
 
 1. [Unescaped consent-prompt renderer (HTML()) enables concealed-approval OS command injection in strands-agents/tools use_computer — RCE](https://hackerone.com/reports/4077800)
    - Program: AWS VDP | Upvotes: 13 | Bounty: $0.00 | Type: OS Command Injection
